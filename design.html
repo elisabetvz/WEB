@@ -24,6 +24,23 @@
         <c class="footer-tablet; text-block">WORK IN PROGRESS...</c>
         <a class="navbar"></a> 
         <a class="text-block"></a>  
+
+        <video id="vid" width="400">
+            <source src="" type="video/mp4">
+            Your browser does not support HTML5 video. 
+        </video>
+        <script>
+            $(window).scroll (function(){
+                var myVideo = document.getElementById( "vid" );
+                // console.log($(window) .scrollTop());
+                if($(window) . scrollTop() > 300 && $(window).scrollTop() > 975){
+                    myVideo.play();
+                }else{
+                    myVideo.pause()
+                }
+            })
+
+        </script>
 </main>
     
     <footer>
