@@ -1317,3 +1317,80 @@ a {
       }
   }
     
+
+  .cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.db {
+    display: block;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.black {
+    color: #000;
+}
+
+.pa2 {
+    padding: .5rem;
+}
+
+.pv2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.ph2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+}
+
+.grow:hover, .grow:focus {
+    transform: scale(1.05);
+}
+
+.grow:active {
+    transform: scale(.9);
+}
+
+@media screen and (min-width: 30em) {
+    .w-25-ns {
+        width: 25%;
+    }
+
+    .w-50-ns {
+        width: 50%;
+    }
+}
