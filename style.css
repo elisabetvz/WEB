@@ -308,9 +308,8 @@ TYPE STYLES
 
 .ss4 {
   font-family: 'SuisseBPIntl-Antique', sans-serif;
-  font-size: 100pt;
+  font-size: 150pt;
   font-weight: 700;
-  font-size: 100pt;
 }
 
 @media screen and (min-width: 991px) {
