@@ -284,9 +284,16 @@ TYPE STYLES
     cursor: auto;
   }
 
-.serif2 {
+.sansserif2 {
   font-family: 'SuisseBPIntl-Antique', sans-serif;
 }
+
+.sansserif3 {
+  font-family: 'SuisseBPIntl-Antique', sans-serif;
+  font-size: 16pt;
+}
+
+-
 
 /*
 ------------------------------------------------------------------
