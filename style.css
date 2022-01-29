@@ -224,11 +224,11 @@ TYPE STYLES
 .heading-3 {
   margin-top: 0rem;
     margin-bottom: 0rem;
-    font-family: Steinbeck;
+    font-family: 'SuisseBPIntl-Antique', sans-serif;
     color: #000;
     font-size: 46px;
     line-height: 46px;
-    font-weight: 400;
+    font-weight: lighter;
     letter-spacing: 0.05px;
     text-decoration: none;
     text-transform: uppercase;
@@ -291,8 +291,14 @@ TYPE STYLES
 .sansserif3 {
   font-family: 'SuisseBPIntl-Antique', sans-serif;
   font-size: 16pt;
+  font-weight: 550;
 }
 
+@media screen and (min-width: 600px) {
+  .sansserif3 {
+    font-size: 20pt;
+  }
+}
 -
 
 /*
