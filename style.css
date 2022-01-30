@@ -318,7 +318,10 @@ TYPE STYLES
   }
 }
 
-
+.s1 {
+  font-family: "ITC Garamond W01 Light Cn It";
+  font-size: 20pt;
+}
 
 /*
 ------------------------------------------------------------------
@@ -428,6 +431,13 @@ INDEX GRID
     font-style: normal;
     font-display: auto;
   }
+
+  @font-face {
+    font-family:"ITC Garamond W01 Light Cn It" url="Serif.woff2";
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
 
 
 
