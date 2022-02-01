@@ -170,6 +170,12 @@ TYPE STYLES
 ------------------------------------------------------------------
 */
 
+.p {
+  font-family: 'Suisseintl webfont';;
+}
+
+
+
 .body {
     display: block;
     margin-bottom: 1rem;
@@ -320,7 +326,7 @@ TYPE STYLES
 
 .s1 {
   font-family: 'ITC Garamond W01 Light Cn It';
-  font-size: 20pt;
+  font-size: 30pt;
 }
 
 /*
@@ -442,66 +448,58 @@ INDEX GRID
 
 
 
+
+/*------12 COLOUMN GRID---------*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 20px;
+}
+
+.wrapper > * {
+  grid-column: col-start / span 12;
+}
+
+@media (min-width: 500px) {
+
+  .side {
+    grid-column: col-start / span 3;
+    grid-row: 3;
+  }
+  .ad {
+    grid-column: col-start / span 3;
+    grid-row: 4;
+  }
+  .content, .main-footer {
+    grid-column: col-start 4 / span 9;
+  }
+}
+
+@media (min-width: 700px) {
+  .content {
+    grid-column: col-start 3 / span 8;
+    grid-row: 2 / 4;
+  }
+  .side {
+    grid-column: col-start 11 / span 2;
+    grid-row: 2;
+  }
+  .ad {
+    grid-column: col-start 11 / span 2;
+    grid-row: 3;
+  }
+  .main-footer {
+    grid-column: col-start / span 12;
+  }
+}
+
+
+
 /*------FOOTER---------*/
-
-
 
 .dib {
   display: inline-block;
-}
-
-.link {
-  text-decoration: none;
-  transition: color .15s ease-in;
-}
-
-.link:link, .link:visited {
-  transition: color .15s ease-in;
-}
-
-.link:hover {
-  transition: color .15s ease-in;
-}
-
-.link:active {
-  transition: color .15s ease-in;
-}
-
-.link:focus {
-  transition: color .15s ease-in;
-  outline: 1px dotted currentColor;
-}
-
-.white-80 {
-  color: rgba(255, 255, 255, .8);
-}
-
-.bg-near-black {
-  background-color: #111;
-}
-
-.hover-gold:hover {
-  color: #ffb700;
-}
-
-.hover-gold:focus {
-  color: #ffb700;
-}
-
-.hover-light-purple:hover {
-  color: #a463f2;
-}
-
-.hover-light-purple:focus {
-  color: #a463f2;
-}
-
-.hover-green:hover {
-  color: #19a974;
-}
-
-.hover-green:focus {
-  color: #19a974;
 }
 
 .pv5 {
@@ -534,3 +532,4 @@ INDEX GRID
       padding-bottom: 8rem;
   }
 }
+
