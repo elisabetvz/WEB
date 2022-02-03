@@ -111,56 +111,21 @@ a {
         }
       } 
 
-
-.column.right {
-  padding-top: 2.2rem;
-  padding-left: 0rem;
-  cursor: none;
-}
-
 .column.left {
-  padding-right: 1rem;
+  padding-right: 2rem;
   padding-bottom: 2rem;
-  padding-left: 2.5rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
   cursor: none;
 }
 
-.about-columns {
-  margin-right: 2rem;
-  margin-left: 2rem;
-  cursor: none;
-}
 
-.div-block-12 {
+.div-block {
   padding-top: 1rem;
   padding-right: 0px;
   padding-bottom: 0rem;
   cursor: auto;
 }
-
-.section {
-  position: relative;
-  z-index: 1;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
-  margin-bottom: 101px;
-  padding-top: 0vh;
-  padding-bottom: 30vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
- 
 
 /*
 ------------------------------------------------------------------
@@ -362,17 +327,6 @@ INDEX GRID
 }
 
 #grid2 {
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column: span 6;
-  grid-column-start: span 6;
-  -ms-grid-column-span: 6;
-  grid-column-end: span 6;
-}
-
-#grid3 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
