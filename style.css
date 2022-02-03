@@ -159,7 +159,7 @@ TYPE STYLES
     margin-left: 0px;
     padding-left: 3px;
     background-color: transparent;
-    font-family: Panama, 'Times New Roman', sans-serif;
+    font-family: Panama;
     color: rgb(0, 0, 0);
     font-size: 26px;
     line-height: 32px;
@@ -176,12 +176,12 @@ TYPE STYLES
     -ms-flex-align: stretch;
     align-items: stretch;
     border-radius: 0px;
-    font-family: Steinbeck, Arial, sans-serif;
+    font-family: 'SuisseBPIntl-Antique', sans-serif;
     color: #000;
     font-size: 11vw;
     line-height: 1em;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     text-align: left;
     letter-spacing: 0.05px;
     text-decoration: none;
@@ -206,11 +206,11 @@ TYPE STYLES
 .heading-4 {
     margin-top: 0rem;
     margin-bottom: 0rem;
-    font-family: Steinbeck;
+    font-family: 'SuisseBPIntl-Antique', sans-serif;
     color: #000;
     font-size: 46px;
     line-height: 46px;
-    font-weight: 400;
+    font-weight: lighter;
     letter-spacing: 0.05px;
     text-decoration: none;
     text-transform: uppercase;
