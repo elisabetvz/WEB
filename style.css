@@ -1,362 +1,136 @@
 
-.jpg{
-  list-style: none;
-  padding-left: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-evenly;
-  padding-top: 3px;
-}
-
-.nav_title{
-  margin-right: auto;
-  flex-direction: row;
-}
-
-@media screen (min-width: 600px){
-  .nav_items{
-      flex-direction: row;
-  }
-}
-
-h1 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 38px;
-  line-height: 44px;
-  font-weight: 700;
-  cursor: none;
-}
-
-a {
-  text-decoration: none;
-  cursor: auto;
-}
-
-.navigation-links, .nav_title {
-  position: relative;
-  display: inline-block;
-  overflow: visible;
-  max-height: none;
-  padding: 1.5rem 0px 1.5rem 2rem;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-family: Panama, 'Times New Roman', sans-serif;
-  color: #000;
-  font-size: 32px;
-  line-height: 32px;
-  letter-spacing: -0.36px;
-  text-transform: uppercase;
-  white-space: normal;
-  cursor: pointer;
-}
-
-.navbar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  bottom: auto;
-  z-index: 990;
+.body {
   display: block;
-  overflow: visible;
-  max-height: none;
-  max-width: none;
-  min-width: 100%;
-  border-style: solid none;
-  border-width: 1px 0px;
-  border-color: #000 #000 #fff;
-  border-radius: 0px;
-  background-color: #000;
-  cursor: none;
+  margin-bottom: 1rem;
+  font-family: 'Helvetica';
+  color: #000000;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.36px;
 }
 
-.w-layout-grid {
-  display: -ms-grid;
+.paragraph {
+  padding-top: 1rem;
+  background-color: transparent;
+  font-family: Panama;
+  color: rgb(0, 0, 0);
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+/*
+------------------------------------------------------------------
+NEW GRID
+------------------------------------------------------------------
+*/
+
+.wrapper {
   display: grid;
-  grid-auto-columns: 1fr 1fr;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
-}
-
-  @media screen and (min-width: 600px) {
-    .w-layout-grid {
-      grid-auto-columns: 1fr 1fr;
-      }
-    } 
-
-  @media screen and (min-width: 600px) {
-      .w-layout-grid {
-        grid-auto-columns: 2fr 2fr;
-        }
-      } 
-
-.column.left {
+  grid-template-columns:(4, 1fr);
+  grid-template-rows: (3fr 1fr);    
+  grid-column-gap: .2em;
+  padding-top: .5em;
+  padding-left: .5rem;
   padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-  padding-left: 2rem;
   cursor: none;
 }
 
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  padding-left: 2rem;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  padding-left: 2rem;
+}
 
 .div-block {
   padding-top: 1rem;
-  padding-right: 0px;
-  padding-bottom: 0rem;
   cursor: auto;
 }
 
 /*
 ------------------------------------------------------------------
-TYPE STYLES
+FONTS
 ------------------------------------------------------------------
 */
 
-.p {
-  font-family: 'Suisseintl webfont';;
+* {
+  font-family:'SuisseBPIntl-Antique';
+  color: black;
+  text-decoration: none;
 }
 
-
-
-.body {
-    display: block;
-    margin-bottom: 1rem;
-    padding-bottom: 0px;
-    background-color: transparent;
-    font-family: 'SuisseBPIntl-Antique', sans-serif;
-    color: #000000;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 400;
-    letter-spacing: -0.36px;
-    background-clip: border-box;
-    cursor: auto;
-  }
-
-.paragraph {
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-left: 3px;
-    background-color: transparent;
-    font-family: Panama;
-    color: rgb(0, 0, 0);
-    font-size: 26px;
-    line-height: 32px;
-    font-weight: 400;
-  }
-
-.heading-2 {
-    display: block;
-    margin: 0px;
-    padding-bottom: 0px;
-    float: none;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    border-radius: 0px;
-    font-family: 'SuisseBPIntl-Antique', sans-serif;
-    color: #000;
-    font-size: 11vw;
-    line-height: 1em;
-    font-style: normal;
-    font-weight: lighter;
-    text-align: left;
-    letter-spacing: 0.05px;
-    text-decoration: none;
-    text-transform: uppercase;
-    white-space: normal;
-    cursor: auto;
-  }
-
-.heading-3 {
-  margin-top: 0rem;
-    margin-bottom: 0rem;
-    font-family: 'SuisseBPIntl-Antique', sans-serif;
-    color: #000;
-    font-size: 46px;
-    line-height: 46px;
-    font-weight: lighter;
-    letter-spacing: 0.05px;
-    text-decoration: none;
-    text-transform: uppercase;
-    cursor: auto;
+.a{
+  font-size: 26.4px;
 }
-.heading-4 {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    font-family: 'SuisseBPIntl-Antique', sans-serif;
-    color: #000;
-    font-size: 46px;
-    line-height: 46px;
-    font-weight: lighter;
-    letter-spacing: 0.05px;
-    text-decoration: none;
-    text-transform: uppercase;
-    cursor: auto;
-  }
 
-.text-block {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    height: 2rem;
-    margin-left: 0px;
-    padding-left: 0px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    font-family: 'SuisseBPIntl-Antique', sans-serif;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    line-height: 0px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    cursor: auto;
-  }
+.ss {
+  font-family:'SuisseBPIntl-Antique';
+  padding-top: 1rem;
+}
 
 .ss1 {
-  font-family: 'SuisseBPIntl-Antique', sans-serif;
-  font-size: 15pt;
+  font-family:'Suisse-Intl-Light';
   font-weight: lighter;
 }
 
 .ss2 {
-  font-family: 'SuisseBPIntl-Antique', sans-serif;
+  font-size: 50pt;
+  padding-top: 1rem;
 }
 
 .ss3 {
-  font-family: 'SuisseBPIntl-Antique', sans-serif;
-  font-size: 16pt;
-  font-weight: 550;
-}
-
-@media screen and (min-width: 600px) {
-  .ss3 {
-    font-size: 20pt;
-  }
+  font-family: 'SuisseBPIntl-AntiqueItalic';
 }
 
 .ss4 {
-  font-family: 'SuisseBPIntl-Antique', sans-serif;
-  font-size: 100pt;
-  font-weight: 700;
+  font-size: 26.4px;
 }
 
-@media screen and (min-width: 991px) {
-  .ss4 {
-    font-size: 200pt;
-  }
-}
-
-.s1 {
-  font-family: 'ITC Garamond W01 Light Cn It';
-  font-size: 30pt;
-}
-
-.my-text { font-feature-settings: "ss14", "ss15";}
-
-
-/*
-------------------------------------------------------------------
-INDEX GRID
-------------------------------------------------------------------
-*/
-
-
-@media screen and (max-width: 991px) {
-#grid {
-    -ms-grid-column: span 5.937500476837158;
-    grid-column-start: span 5.937500476837158;
-    -ms-grid-column-span: 5.937500476837158;
-    grid-column-end: span 5.937500476837158;
-    -ms-grid-row: span 0.9895833730697632;
-    grid-row-start: span 0.9895833730697632;
-    -ms-grid-row-span: 0.9895833730697632;
-    grid-row-end: span 0.9895833730697632;
-  }
-}
-
-#grid1 {
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column: span 5;
-  grid-column-start: span 5;
-  -ms-grid-column-span: 5;
-  grid-column-end: span 5;
-}
-
-#grid2 {
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column: span 6;
-  grid-column-start: span 6;
-  -ms-grid-column-span: 6;
-  grid-column-end: span 6;
+.ss5 {
+  font-family:'Suisse-Intl-Light';
+  font-weight: lighter;
+  font-size: 50pt;
 }
 
  /*
   ------------------------------------------------------------------
-  FONT FACES
+  TYPEFACES
   ------------------------------------------------------------------
   */
 
   @font-face {
-    font-family: 'Suisseintl webfont';
-    src: url('fonts/Suisseintlregular.woff2') format('woff');
+    font-family: 'SuisseBPIntl-Antique';
+    src: url('fonts/SuisseBPIntl-Antique.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: auto;
   }
+
   @font-face {
-    font-family: 'Suisseintl webfont';
-    src: url('fonts/Suisseintllight.woff2'), format('woff');
-    font-weight: 300;
+    font-family: 'SuisseBPIntl-AntiqueItalic';
+    src: url('fonts/SuisseBPIntl-AntiqueItalic.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
     font-display: auto;
   }
+
+  @font-face {
+    font-family: 'Suisse-Intl-Light';
+    src: url('fonts/Suisseintllight.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: auto;
+  }
+
   @font-face {
     font-family: 'Panama';
     src: url('fonts/PanamaRegular.woff') format('woff');
@@ -364,80 +138,44 @@ INDEX GRID
     font-style: normal;
     font-display: auto;
   }
-  @font-face {
-    font-family: 'Attilasansbasic';
-    src: url('fonts/Attilasansbasic.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: auto;
-  }
-  @font-face {
-    font-family: 'Timesnow';
-    src: url('fonts/TimesNowLight.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: auto;
-  }
-  @font-face {
-    font-family: 'Steinbeck';
-    src: url('fonts/Steinbeck.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: auto;
-  }
-  @font-face {
-    font-family: 'Suisseworks webfont';
-    src: url('fonts/Suisseworksregular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: auto;
-  }
 
-  @font-face {
-    font-family:'ITC Garamond W01 Light Cn It';
-    src: url('fonts/Serif.woff2') format('woff2');
-    font-size:16px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;}
-
-
-
-
-/*------FOOTER---------*/
-
-.dib {
-  display: inline-block;
+    /*
+------------------------------------------------------------------
+GALLERY
+------------------------------------------------------------------
+*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-.pv5 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
-.ph4 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
-.mr4 {
-  margin-right: 2rem;
-}
-
-.f6 {
-  font-size: .875rem;
-}
-
-@media screen and (min-width: 30em) {
-  .mr5-ns {
-      margin-right: 4rem;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
-@media screen and (min-width: 60em) {
-  .pv6-l {
-      padding-top: 8rem;
-      padding-bottom: 8rem;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
