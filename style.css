@@ -12,12 +12,13 @@
 .paragraph {
   padding-top: 1rem;
   background-color: transparent;
-  font-family: Panama;
+  font-family: 'Panama';
   color: rgb(0, 0, 0);
   font-size: 26px;
   line-height: 32px;
-  font-weight: 400;
+  font-weight: lighter;
 }
+
 
 /*
 ------------------------------------------------------------------
@@ -138,6 +139,7 @@ FONTS
     font-style: normal;
     font-display: auto;
   }
+
 
     /*
 ------------------------------------------------------------------
