@@ -19,6 +19,23 @@
   font-weight: lighter;
 }
 
+@media screen and (min-width: 800px){
+  .img {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .img {
+    width: 0px;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .img2 {
+    width:fit-content;
+  }
+}
 
 /*
 ------------------------------------------------------------------
