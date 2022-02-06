@@ -112,12 +112,19 @@ NEW GRID
 /*-- vertical line --*/
 .vl {
   border-left: 6px solid rgb(255, 0, 0);
-  height: 150px;
-  position: absolute;
-  left: 45%;
-  margin-left: -3px;
-  top: 30pt;
+  height:fit-content;
+  position:static;
+  left: 50%;
+  margin-left:-3px;
+  top: 10pt;
 }
+
+@media screen and (min-width: 600px){
+  .vl {
+    width:1000;
+  }
+}
+
 
 /*
 ------------------------------------------------------------------
@@ -168,6 +175,13 @@ FONTS
   font-family:'SuisseBPIntl-Antique';
   font-weight: ;
   font-size: 43pt;
+}
+
+.ss7 {
+  font-family:'Suisse-Intl-Light';
+  font-weight: lighter;
+  font-size: 26.4px;
+  margin-left: 10pt;
 }
 
  /*
