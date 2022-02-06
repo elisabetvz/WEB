@@ -25,12 +25,17 @@
   }
 }
 
+@media screen and (min-width: 400px){
+  .img {
+    width: fit-content;
+  }
+}
+
 @media screen and (max-width: 800px){
   .img2 {
     width:0px;
   }
 }
-
 
 @media screen and (min-width: 801px){
   .img2 {
