@@ -5,8 +5,8 @@
   font-family: 'Helvetica';
   color: #000000;
   font-size: 20px;
-  line-height: 24px;
   letter-spacing: -0.36px;
+  line-height: 18pt;
 }
 
 .body2 {
@@ -16,6 +16,7 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.36px;
+  line-height: 20pt;
 }
 .img{
   width: 434px;
@@ -114,6 +115,13 @@ NEW GRID
 
 .div-block2 {
   padding-top: 10rem;
+  cursor: auto;
+}
+
+/*-- blank block footer --*/
+
+.div-block2 {
+  padding-top: 2rem;
   cursor: auto;
 }
 
