@@ -125,6 +125,13 @@ NEW GRID
   cursor: auto;
 }
 
+/*-- blank block extra --*/
+
+.div-block3 {
+  padding-top: 1rem;
+  cursor: auto;
+}
+
 /*-- vertical line --*/
 .vl {
   border-left: 6px solid rgb(255, 0, 0);
