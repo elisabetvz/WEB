@@ -19,8 +19,6 @@
   line-height: 20pt;
 }
 
-
-
 @media screen and (min-width: 600px){
   .img {
     width: fit-content;
@@ -197,6 +195,12 @@ FONTS
   margin-left: 10pt;
 }
 
+.ss8 {
+  font-family:'Steinbeck';
+  font-size: 40px;
+}
+
+
  /*
   ------------------------------------------------------------------
   TYPEFACES
@@ -228,8 +232,8 @@ FONTS
   }
 
   @font-face {
-    font-family: 'Panama';
-    src: url('fonts/PanamaRegular.woff') format('woff');
+    font-family: 'Steinbeck';
+    src: url('fonts/Steinbeck.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: auto;
