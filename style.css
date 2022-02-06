@@ -82,7 +82,6 @@ NEW GRID
   grid-row-start: 1;
   grid-row-end: 3;
   display: grid;
-  padding-top: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
