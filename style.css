@@ -181,11 +181,6 @@ NEW GRID
   justify-content: right;
 }
 
-@media screen and (min-width: 801px){
-  .wrapper2 {
-  width: fit-content;
-  }
-
   .div-block {
     padding-top: 1rem;
     cursor: auto;
@@ -222,7 +217,11 @@ NEW GRID
   }
 }
 
-
+/*
+------------------------------------------------------------------
+GALLERY
+------------------------------------------------------------------
+*/
 
 .row {
   display: flex;
@@ -241,25 +240,3 @@ img{
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns 
-@media screen and (min-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other 
-@media screen and (min-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 100px) {
-  .row {
-    flex: 100%;
-    width: fit-content;
-  }
-}*/
