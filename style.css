@@ -1,3 +1,7 @@
+.container{
+  width: 300px;
+}
+
 /*
 ------------------------------------------------------------------
 FONTS
@@ -60,6 +64,8 @@ FONTS
 .ss8 {
   font-family:'Steinbeck';
   font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .ss9 {
