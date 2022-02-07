@@ -1,138 +1,3 @@
-
-.body {
-  display: block;
-  margin-bottom: 1rem;
-  font-family: 'Helvetica';
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: -0.36px;
-  line-height: 18pt;
-}
-
-.body2 {
-  display: block;
-  font-family: 'Helvetica';
-  color: #000000;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: -0.36px;
-  line-height: 20pt;
-}
-
-
-img {
-  width: 500px;
-}
-
-@media screen and (min-width: 600px){
-  .img {
-    width: fit-content;
-  }
-}
-
-
-/*
-------------------------------------------------------------------
-NEW GRID
-------------------------------------------------------------------
-*/
-
-.wrapper {
-  display: grid;
-  grid-template-columns:(4, 1fr);
-  grid-template-rows: (3fr 1fr);    
-  grid-column-gap: .2em;
-  padding-top: .5em;
-  padding-left: .5rem;
-  padding-right: 2rem;
-  cursor: none;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  padding-left: 2rem;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-}
-
-.wrapper2 {
-  display: grid;
-  grid-template-columns:(2, 1fr);
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-template-rows: 4fr;    
-  grid-column-gap: .2em;
-  cursor: none;
-}
-
-@media screen and (min-width: 801px){
-  .wrapper2 {
-    display: grid;
-    grid-template-columns:(2, 1fr);
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-template-rows: 4fr;    
-    grid-column-gap: .2em;
-    cursor: none;
-  }
-}
-
-.box3 {
-  grid-column-start: 5;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  justify-content: right;
-}
-
-@media screen and (min-width: 801px){
-  .wrapper2 {
-  width: fit-content;
-  }
-
-.div-block {
-  padding-top: 1rem;
-  cursor: auto;
-}
-
-/*-- blank block footer --*/
-
-.div-block2 {
-  padding-top: 2rem;
-  cursor: auto;
-}
-
-/*-- blank block extra --*/
-
-.div-block3 {
-  padding-top: 1rem;
-  cursor: auto;
-}
-
-/*-- vertical line --*/
-.vl {
-  border-left: 6px solid rgb(255, 0, 0);
-  height:fit-content;
-  position:static;
-  left: 50%;
-  margin-left:-3px;
-  top: 10pt;
-}
-
-@media screen and (min-width: 600px){
-  .vl {
-    width:1000;
-  }
-}
-
-
 /*
 ------------------------------------------------------------------
 FONTS
@@ -151,7 +16,7 @@ FONTS
 }
 
 .ss {
-  font-family:'SuisseBPIntl-Antique';
+  font-family:'Helvetica';
   padding-top: 1rem;
 }
 
@@ -241,3 +106,114 @@ FONTS
     font-style: normal;
     font-display: auto;
   }
+
+
+
+.body {
+  display: block;
+  margin-bottom: 1rem;
+  font-family: 'Helvetica';
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.36px;
+  line-height: 18pt;
+}
+
+.body2 {
+  display: block;
+  font-family: 'Helvetica';
+  color: #000000;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+  line-height: 20pt;
+}
+
+/*
+------------------------------------------------------------------
+NEW GRID
+------------------------------------------------------------------
+*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns:(4, 1fr);
+  grid-template-rows: (3fr 1fr);    
+  grid-column-gap: .2em;
+  padding-top: .5em;
+  padding-left: .5rem;
+  padding-right: 2rem;
+  cursor: none;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  padding-left: 2rem;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns:(2, 1fr);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-template-rows: 4fr;    
+  grid-column-gap: .2em;
+  cursor: none;
+}
+
+.box3 {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  justify-content: right;
+}
+
+@media screen and (min-width: 801px){
+  .wrapper2 {
+  width: fit-content;
+  }
+
+.div-block {
+  padding-top: 1rem;
+  cursor: auto;
+}
+
+/*-- blank block footer --*/
+
+.div-block2 {
+  padding-top: 2rem;
+  cursor: auto;
+}
+
+/*-- blank block extra --*/
+
+.div-block3 {
+  padding-top: 1rem;
+  cursor: auto;
+}
+
+/*-- vertical line --*/
+.vl {
+  border-left: 6px solid rgb(255, 0, 0);
+  height:fit-content;
+  position:static;
+  left: 50%;
+  margin-left:-3px;
+  top: 10pt;
+}
+
+@media screen and (min-width: 600px){
+  .vl {
+    width:1000;
+  }
+}
