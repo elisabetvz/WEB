@@ -78,6 +78,8 @@ NEW GRID
   }
 }
 
+
+
 .box3 {
   grid-column-start: 5;
   grid-column-end: 5;
@@ -92,6 +94,15 @@ NEW GRID
   grid-template-rows: (4, 1fr);  
   justify-content: right;
 }
+
+.box5 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-template-rows: (4, 1fr);  
+  justify-content: right;
+  display: flex;
+}
+
 
 .div-block {
   padding-top: 1rem;
@@ -246,6 +257,7 @@ FONTS
   }
 
 
+
     /*
 ------------------------------------------------------------------
 GALLERY
@@ -280,12 +292,21 @@ GALLERY
   }
 }
 
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .column {
     flex: 100%;
-    max-width: 100%;
+    max-width: 50%;
   }
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
 }
 
