@@ -261,3 +261,10 @@ GALLERY
     max-width: 100%;
   }
 }
+
+@media screen and (min-width: 100px) {
+  .row {
+    flex: 100%;
+    width: fit-content;
+  }
+}
