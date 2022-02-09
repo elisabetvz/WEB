@@ -138,48 +138,6 @@ NEW GRID
 ------------------------------------------------------------------
 */
 
-.wrapper {
-  display: grid;
-  grid-template-columns:(4, 1fr);
-  grid-template-rows: (3fr 1fr);    
-  grid-column-gap: .2em;
-  padding-top: .5em;
-  padding-left: .5rem;
-  padding-right: 2rem;
-  cursor: none;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  padding-left: 2rem;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-}
-
-.wrapper2 {
-  display: grid;
-  grid-template-columns:(2, 1fr);
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-template-rows: 4fr;    
-  grid-column-gap: .2em;
-  cursor: none;
-}
-
-.box3 {
-  grid-column-start: 5;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  justify-content: right;
-}
 
   .div-block {
     padding-top: 1rem;
