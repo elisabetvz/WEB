@@ -220,8 +220,8 @@ MY STYLE
 	  --color-text: #d00000;
 	  --color-bg: #ffffff;
 	  --color-link: #28b6cf;
-	  --color-link-hover: #fff;
-	  --color-content-title-sub: #d00000;
+	  --color-link-hover: #d00000;
+	  --color-content-title-sub: black;
 	  color: var(--color-text);
 	  background-color: var(--color-bg);
 	  --cursor-stroke: #ff0000;
