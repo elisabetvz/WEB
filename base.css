@@ -200,6 +200,7 @@ MY STYLE
   *,
   *::after,
   *::before {
+	  user-select: inherit;
 	  box-sizing: border-box;
   }
   
@@ -310,7 +311,13 @@ MY STYLE
 	  position: relative;
   }
   
-
+  .no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
   
   .frame {
 	  padding: 3rem 5vw;
@@ -458,7 +465,7 @@ MY STYLE
 		  top: 5em;
 		  left: 0;
 		  display: block;
-		  pointer-events: none;
+		  pointer-events:none;
 	  }
 	  .cursor__inner {
 		  fill: var(--cursor-fill);
