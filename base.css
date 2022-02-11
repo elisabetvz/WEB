@@ -310,13 +310,7 @@ MY STYLE
 	  position: relative;
   }
   
-  .no-select {
-	  -webkit-touch-callout: none;
-	  -webkit-user-select: none;
-	  -moz-user-select: none;
-	  -ms-user-select: none;
-	  user-select: none;
-  }
+
   
   .frame {
 	  padding: 3rem 5vw;
