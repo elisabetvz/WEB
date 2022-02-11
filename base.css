@@ -200,7 +200,7 @@ MY STYLE
   *,
   *::after,
   *::before {
-	  user-select: inherit;
+	  cursor:auto;
 	  box-sizing: border-box;
   }
   
