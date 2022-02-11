@@ -406,11 +406,11 @@ MY STYLE
   }
   
   .pos-2 {
-	  grid-area: 2 / 35 / 7 / 47;
+	  grid-area: 1 / 35 / 7 / 47;
   }
   
   .pos-3 {
-	  grid-area: 1 / 36 / 14 / 42;
+	  grid-area: 1 / 36 / 0 / 42;
   }
   
   .pos-4 {
