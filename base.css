@@ -221,7 +221,7 @@ MY STYLE
 	  --color-bg: #ffffff;
 	  --color-link: #28b6cf;
 	  --color-link-hover: #d00000;
-	  --color-content-title-sub: black;
+	  --color-content-title-sub: rgb(63, 63, 63);
 	  color: var(--color-text);
 	  background-color: var(--color-bg);
 	  --cursor-stroke: #ff0000;
@@ -452,7 +452,7 @@ MY STYLE
   }
   
   .content__title-sub {
-	  color: #000000;
+	  color: #00a6d0;
 	  font-size: 4vw;
 	  display: block;
 	  line-height: 0.5;
