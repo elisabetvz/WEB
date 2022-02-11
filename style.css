@@ -70,6 +70,19 @@ MY STYLE
 	margin-left: 10pt;
   }
   
+  .ss10 {
+	font-family:'Steinbeck';
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+  }
+  
+
+  .ss11 {
+	font-family:'Steinbeck';
+	font-size: 10px;
+	font-weight: lighter;
+  }
   
    /*
 	------------------------------------------------------------------
@@ -174,76 +187,124 @@ MY STYLE
 	}
   }
 
-  /*
+ /*
   ------------------------------------------------------------------
-  FADE IN OVERLAY IMAGES
+  DROPDOWN NAVIGATOR
   ------------------------------------------------------------------
   */
-  
-  .row {
-	display: flex;
-  }
-  
-  .container {
-	position: relative;
-	width: 100%; 
-	flex: 33.33%;
+
+/* Dropdown Button */
+.button{
+	border-style:none;
+}
+
+.dropbtn {
+	background-color: rgb(255, 255, 255);
+	color: whitesmoke;
 	padding: 5px;
+	border-radius: 100%;
+	height: .5cm;
+	width: .5cm;
+	font-size: 0;
+	border: none;
   }
   
-  @media screen and (min-width: 600px){
-	.container {
-	  align-items: center;
-	  padding-left: 25%;
-	  padding-right: 25%;
-	  width: 50%;
-	  flex: 33.33%;
-	  padding: 5px;
-	  }
-	}
-  
-  .image {
-	display: block;
-	width: 100%;
-	height: auto;
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
   }
   
-  .overlay {
-	position:absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: rgba(255, 255, 255, 0.39);
-  }
-  
-  .container:hover .overlay {
-	opacity: 1;
-  }
-  
-  .text {
-	color: white;
-	font-size: 20px;
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	background-color: whitesmoke(0, 238, 255);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
   }
   
-  .hamburger .line {
-	width: 20px;
-	height: 3px;
-	background-color: #000000;
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
 	display: block;
-	margin: 5px auto;
-	-webkit-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out; }
+  }
   
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgba(245, 245, 245, 0.438);}
+  
+  *,
+  *::after,
+  *::before {
+	  box-sizing: border-box;
+  }
 
+  body {
+	margin: 0;
+	--color-text: #d00000;
+	--color-bg: #ffffff;
+	--color-link: #28b6cf;
+	--color-link-hover: #fff;
+	--color-content-title-sub: #d00000;
+	color: var(--color-text);
+	background-color: var(--color-bg);
+	--cursor-stroke: #ff0000;
+	--cursor-fill: none;
+	--cursor-stroke-width: 1px;
+	font-family: 'SuisseBPIntl-Antique';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 
+  
+  .message {
+	position: relative;
+	z-index: 100;
+	text-align: center;
+	background: #d00000;
+	color: #ffffff;
+	padding: 1rem;
+	font-size: 0.85rem;
+	position: relative;
+}
+
+.frame {
+	padding: 1rem 3vw;
+	text-align: center;
+	position: relative;
+	z-index: 1000;
+}
+
+.frame2 {
+	padding: 0rem 5vw;
+	text-align: lef;
+	position: relative;
+	z-index: 1000;
+}
+
+.frame__title {
+	font-size: 1rem;
+	margin: 0 0 1rem;
+	font-weight: normal;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	height: calc(100vh - 13rem);
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	max-height: 300px;
+	color: #000000;
+}
