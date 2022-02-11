@@ -402,11 +402,11 @@ MY STYLE
   /* Shorthand grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
   
   .pos-1 {
-	  grid-area: 10 / 1 / 26 / 7;
+	  grid-area: 30 / 18 / 35 / 27;
   }
   
   .pos-2 {
-	  grid-area: 1 / 18 / 9 / 27;
+	  grid-area: 2 / 35 / 7 / 47;
   }
   
   .pos-3 {
@@ -414,19 +414,19 @@ MY STYLE
   }
   
   .pos-4 {
-	  grid-area: 13 / 11 / 32 / 18;
+	  grid-area: 3 / 5 / 15 / 18;
   }
   
   .pos-5 {
-	  grid-area: 17 / 32 / 32 / 38;
+	  grid-area: 10 / 25 / 32 / 30;
   }
   
   .pos-6 {
-	  grid-area: 20 / 46 / 28 / 51;
+	  grid-area: 33 / 30 / 40 / 45;
   }
   
   .pos-7 {
-	  grid-area: 43 / 1 / 51 / 10;
+	  grid-area: 40 / 5 / 45 / 15;
   }
   
   .pos-8 {
