@@ -310,31 +310,34 @@ MY STYLE
 }
 
 
-.gallery {
-	display: flex;
-	padding: 2px;
-	transition: .3s;
+@media screen  and (max-width: 600px){
+	.gallery {
+	display:unset;
+	padding: -10px;
+	max-width: 100%;
+		
+}}
 
-}
+@media screen  and (min-width: 601px){
+	.gallery {
+		display:flex;
+		padding: 2px;
+		transition: 3.3s;
+}}
 
 
 .gallery__column {
 		display: flex;
 		flex-direction: column;
-		width: 25%;
 	}
-	
-	.gallery__link {
-		margin: 2px;
-		overflow: hidden;
-	}
+
 	
 	.gallery__thumb {
 		position: relative;
 	}
 	
 	.gallery__image {
-		display: block;
+
 		width: 100%;
 		transition: .3s;
 	}
