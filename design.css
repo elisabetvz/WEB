@@ -692,7 +692,7 @@ main {
 		left: 0;
 		display: block;
 		pointer-events: none;
-		mix-blend-mode: color-burn;
+		mix-blend-mode:darken;
 	}
 	.cursor__inner {
 		fill: var(--cursor-fill);
@@ -703,4 +703,30 @@ main {
 	.no-js .cursor {
 		display: none;
 	}
+}
+
+.button{
+	border-style:none;
+}
+
+.dropbtn {
+	background-color: rgb(255, 255, 255);
+	color: whitesmoke;
+	padding: 5px;
+	border-radius: 100%;
+	height: .5cm;
+	width: .5cm;
+	font-size: 0;
+	border: none;
+  }
+
+  .message {
+	position: relative;
+	z-index: 100;
+	text-align: center;
+	background: var(--color-text);
+	color: var(--color-bg);
+	padding: 1rem;
+	font-size: 0.85rem;
+	position: relative;
 }
