@@ -205,7 +205,7 @@ body {
 	--color-link: #000002;
 	--color-link-hover: #000;
 	--color-menu: #000002;
-	--color-menu-hover: #d00000;
+	--color-menu-hover: #c12a2a;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: paralucent, sans-serif;
