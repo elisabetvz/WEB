@@ -200,7 +200,7 @@ MY STYLE
 
 body {
 	margin: 0;
-	--color-text: black;
+	--color-text: #d00000;
 	--color-bg: #EAE4DE;
 	--color-link: #000002;
 	--color-link-hover: #000;
@@ -346,6 +346,7 @@ main {
 	display: grid;
 	grid-template-columns: repeat(25,4%);
     grid-template-rows: repeat(25,4%);
+	opacity: 50%;
 }
 
 .bg-gallery__item {
@@ -368,11 +369,11 @@ main {
 }
 
 .bg-gallery--1 .bg-gallery__item:nth-child(1) { grid-area: 3 / 2 / auto / auto;}
-.bg-gallery--1 .bg-gallery__item:nth-child(2) { grid-area: 8 / 3 / auto / auto; }
-.bg-gallery--1 .bg-gallery__item:nth-child(3) { grid-area: 1 / 20 / auto / auto; }
-.bg-gallery--1 .bg-gallery__item:nth-child(4) { grid-area: 25 / 5 / auto / auto; }
-.bg-gallery--1 .bg-gallery__item:nth-child(5) { grid-area: 25 / 18 / auto / auto; }
-.bg-gallery--1 .bg-gallery__item:nth-child(6) { grid-area: 15 / 19 / auto / auto; }
+.bg-gallery--1 .bg-gallery__item:nth-child(2) { grid-area: 15 / 3 / auto / auto; }
+.bg-gallery--1 .bg-gallery__item:nth-child(3) { grid-area: 5 / 20 / auto / auto; }
+.bg-gallery--1 .bg-gallery__item:nth-child(4) { grid-area: 15 / 5 / auto / auto; }
+.bg-gallery--1 .bg-gallery__item:nth-child(5) { grid-area: 15 / 18 / auto / auto; }
+.bg-gallery--1 .bg-gallery__item:nth-child(6) { grid-area: 20 / 19 / auto / auto; }
 
 .bg-gallery--2 .bg-gallery__item:nth-child(1) { grid-area: 1 / 2 / auto / auto; }
 .bg-gallery--2 .bg-gallery__item:nth-child(2) { grid-area: 10 / 3 / auto / auto; }
@@ -488,7 +489,7 @@ main {
 .menu__item-cta {
 	display: block;
 	margin: 0 0 1.35vw;
-	opacity: 0;
+	opacity: 100%;
 	position: relative;
 	overflow: hidden;
 }
@@ -538,7 +539,7 @@ main {
 	top: 0;
 	height: 0;
 	overflow: hidden;
-	opacity: 0;
+	opacity: 100%;
 	pointer-events: none;
 }
 
@@ -546,7 +547,7 @@ main {
 	position: relative;
 	overflow: visible;
 	height: auto;
-	opacity: 1;
+	opacity: 100%;
 }
 
 .js .page:not(.page--preview) .content--current {
@@ -624,6 +625,11 @@ main {
 
 .gallery__figure-img {
 	max-width: 100%;
+
+}
+
+.gallery__figure-caption {
+	opacity: 100%;
 }
 
 .js .content__back,
@@ -631,14 +637,14 @@ main {
 .js .content__intro,
 .js .content__date,
 .js .gallery__figure {
-	opacity: 0;
+	opacity: 100%;
 }
 
 .cursor {
 	display: none;
 }
 
-@media screen and (min-width: 53em) {
+@media screen and (min-width:0em) {
 	main {
 		grid-template-areas: 'content content';
 		grid-template-rows: 100vh;
