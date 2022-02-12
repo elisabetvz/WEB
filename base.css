@@ -302,7 +302,7 @@ MY STYLE
 	  position: relative;
 	  z-index: 100;
 	  text-align: center;
-	  background: var(--color-text);
+	  background: transparent;
 	  color: var(--color-bg);
 	  padding: 1rem;
 	  font-size: 0.85rem;

@@ -200,7 +200,7 @@ MY STYLE
 
 body {
 	margin: 0;
-	--color-text: #000002;
+	--color-text: black;
 	--color-bg: #EAE4DE;
 	--color-link: #000002;
 	--color-link-hover: #000;
