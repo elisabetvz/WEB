@@ -377,15 +377,15 @@ main {
 }
 
 .content {
-	margin: 0 auto;
-	padding: 2rem 0 10rem 0;
-	align-self: center;
-	justify-self: center;
-	width: 100%;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	height: calc(100vh - 13rem);
 	position: relative;
-	display: grid;
-	grid-template-areas: "back" "title" "intro" "date" "gallery";
-	grid-gap: 2rem;
+	align-items: center;
+	justify-content: center;
+	max-height: 300px;
+	color: #000000;
 }
 
 .js .content {
