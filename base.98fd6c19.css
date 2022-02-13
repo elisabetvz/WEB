@@ -1,3 +1,42 @@
+ /*
+	------------------------------------------------------------------
+	TYPEFACES
+	------------------------------------------------------------------
+	*/
+  
+	@font-face {
+		font-family: 'SuisseBPIntl-Antique';
+		src: url('fonts/SuisseBPIntl-Antique.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'SuisseBPIntl-AntiqueItalic';
+		src: url('fonts/SuisseBPIntl-AntiqueItalic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'Suisse-Intl-Light';
+		src: url('fonts/Suisseintllight.woff2') format('woff2');
+		font-weight: 100;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'Steinbeck';
+		src: url('fonts/Steinbeck.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+
 *,
 *::after,
 *::before {
@@ -13,12 +52,12 @@ body {
 	--color-text: #000000;
 	--color-bg: #ffffff;
 	--color-link: #000000;
-	--color-link-hover: rgb(255, 0, 0);
+	--color-link-hover: #00a6d0;
 	--color-menu: #000000;
-	--color-menu-hover: #c12a2a;
+	--color-menu-hover: #00a6d0;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: paralucent, sans-serif;
+	font-family: 'SuisseBPIntl-Antique';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	--title-size-fallback: 7vw;
@@ -114,7 +153,7 @@ main {
 .frame {
 	text-transform: uppercase;
 	padding: 2rem 1rem;
-	font-family: soleil, sans-serif;
+	font-family: 'SuisseBPIntl-Antique';
 }
 
 .frame a {
@@ -282,6 +321,7 @@ main {
 	font-style: italic;
 	pointer-events: auto;
 	color: var(--color-menu);
+	font-family:'SuisseBPIntl-Antique';
 }
 
 .menu__item:hover .menu__item-title,
@@ -317,6 +357,7 @@ main {
 .content__intro span,
 .content__date span {
 	display: block;
+	color: black;
 }
 
 .page {

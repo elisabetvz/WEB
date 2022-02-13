@@ -219,7 +219,7 @@ MY STYLE
 	  margin: 0;
 	  --color-text: #d00000;
 	  --color-bg: #ffffff;
-	  --color-link: #28b6cf;
+	  --color-link: #00a6d0;
 	  --color-link-hover: #d00000;
 	  --color-content-title-sub: rgb(63, 63, 63);
 	  color: var(--color-text);
@@ -237,17 +237,6 @@ MY STYLE
 	  --cda-footer-fontsize: 12px;
   }
   
-  
-  .demo-3 {
-	  --color-text: #239c34;
-	  --color-bg: #000000;
-	  --color-link: #ffffff;
-	  --color-link-hover: #ccc;
-	  --color-content-title-sub: #ffffff;
-	  --cursor-stroke: #239c34;
-	  --cursor-fill: none;
-	  --cursor-stroke-width: 3px;
-  }
   
   a {
 	  text-decoration: none;
