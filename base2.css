@@ -552,4 +552,19 @@ main {
 	.menu{
 	margin-top: -15em;
 	padding-left: 3em;
-	}}
+	}
+	.gallery, .content__intro, .icon, .icon--arrow{
+	margin-left: 1em;}
+	.gallery{
+	padding-left:1em;}
+
+	.content__date{
+	margin-right:2em;
+	}
+	.content__title{
+	margin-left:.4em;
+	}
+
+}
+
+
