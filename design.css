@@ -200,11 +200,11 @@ MY STYLE
 
 body {
 	margin: 0;
-	--color-text: #d00000;
-	--color-bg: #EAE4DE;
-	--color-link: #000002;
-	--color-link-hover: #000;
-	--color-menu: #000002;
+	--color-text: rgb(255, 255, 255);
+	--color-bg: #e6decf;
+	--color-link: #ffffff;
+	--color-link-hover: rgb(255, 255, 255);
+	--color-menu: #ffffff;
 	--color-menu-hover: #c12a2a;
 	color: var(--color-text);
 	background-color: var(--color-bg);
@@ -214,7 +214,7 @@ body {
 	--title-size-fallback: 7vw;
 	--title-size: clamp(4rem, 7vw, 10rem);
 	--cursor-stroke: none;
-    --cursor-fill: #d2220e;
+    --cursor-fill: mediumturquoise;
     --cursor-stroke-width: 1px;
 }
 
@@ -249,7 +249,7 @@ body #cdawrap {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: var(--color-bg);
+	background: rgb(255, 255, 255));
 }
 
 .js .loading::after {
@@ -262,12 +262,12 @@ body #cdawrap {
 	font-family: mono45-headline, monospace;
 	font-weight: 700;
 	transform: translate3d(-50%,-50%,0);
-	-webkit-text-stroke: 2px var(--color-link);
-	text-stroke: 2px var(--color-link);
+	-webkit-text-stroke: 2px rgb(255, 255, 255);
+	text-stroke: 2px rgb(255, 255, 255);
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
 	color: transparent;
-	color: var(--color-link);
+	color: rgb(255, 255, 255);
 	animation: letterSwitch 2s steps(10) infinite;
 }
 
@@ -279,13 +279,13 @@ body #cdawrap {
 
 a {
 	text-decoration: none;
-	color: var(--color-link);
+	color: rgb(255, 255, 255);
 	outline: none;
 }
 
 a:hover,
 a:focus {
-	color: var(--color-link-hover);
+	color: rgb(255, 255, 255);
 	outline: none;
 }
 
@@ -468,13 +468,13 @@ main {
 	font-weight: 700;
 	font-style: italic;
 	pointer-events: auto;
-	color: var(--color-menu);
+	color:mediumturquoise;
 }
 
 .menu__item:hover .menu__item-title,
 .menu__item--selected .menu__item-title,
 .menu__item-cta:hover span {
-	color: var(--color-menu-hover);
+	color:rgb(255, 255, 255);
 }
 
 .menu__item-deco {
@@ -489,7 +489,7 @@ main {
 .menu__item-cta {
 	display: block;
 	margin: 0 0 1.35vw;
-	opacity: 100%;
+	opacity: 0;
 	position: relative;
 	overflow: hidden;
 }
@@ -539,7 +539,7 @@ main {
 	top: 0;
 	height: 0;
 	overflow: hidden;
-	opacity: 100%;
+	opacity: 0;
 	pointer-events: none;
 }
 
