@@ -376,18 +376,6 @@ main {
     pointer-events: none;
 }
 
-.content {
-	display: flex;
-	flex-direction: column;
-	width: auto;
-	height: calc(100vh - 13rem);
-	position: relative;
-	align-items: center;
-	justify-content: center;
-	max-height: 300px;
-	color: #000000;
-}
-
 .js .content {
 	position: absolute;
 	top: 0;
