@@ -1,0 +1,166 @@
+ /*
+	------------------------------------------------------------------
+	TYPEFACES
+	------------------------------------------------------------------
+	*/
+  
+	@font-face {
+		font-family: 'SuisseBPIntl-Antique';
+		src: url('fonts/SuisseBPIntl-Antique.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'SuisseBPIntl-AntiqueItalic';
+		src: url('fonts/SuisseBPIntl-AntiqueItalic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'Suisse-Intl-Light';
+		src: url('fonts/Suisseintllight.woff2') format('woff2');
+		font-weight: 100;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'Steinbeck';
+		src: url('fonts/Steinbeck.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 13px;
+}
+
+body {
+	margin: 0;
+	--color-text: #000000;
+	--color-bg: #ffffff;
+	--color-link: #000000;
+	--color-link-hover: #00a6d0;
+	--color-menu: #000000;
+	--color-menu-hover: #00a6d0;
+	color: var(--color-text);
+	background-color: var(--color-bg);
+	font-family: 'SuisseBPIntl-Antique';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	--title-size-fallback: 7vw;
+	--title-size: clamp(4rem, 7vw, 10rem);
+	--cursor-stroke: none;
+    --cursor-fill: color-burn;
+    --cursor-stroke-width: 1px;
+}
+
+@media screen and (min-width: 53em) {
+	main {
+		grid-template-areas: 'content content';
+		grid-template-rows: 100vh;
+		grid-template-columns: 3rem 1fr;
+	}
+	.frame {
+		position: fixed;
+		left: 10;
+		top: 0;
+		height: 100vh;
+		display: flex;
+		z-index: 1000;
+		-webkit-writing-mode: horizontal-tb;
+		-ms-writing-mode:lr-tb;
+		writing-mode: horizontal-tb;
+		align-items:flex-start;
+    	padding: 2rem 0.35rem 0 0;
+	}
+	
+	.frame__title {
+		margin: 1em;
+		margin-left:3em;
+	}
+	.frame__links {
+		margin: 1vh 0 0 0;
+	}
+	.frame__links a {
+		margin-top: 1.25rem;
+	}
+	.bg-gallery {
+		height: 80vh;
+		max-height: none;
+		align-items: center;
+	}
+	.menu,
+	.content {
+		width: 50vw;
+		max-width: 1000px;
+	}
+	.content {
+		grid-template-areas: "back back" 
+						"title title" 
+						"intro date"
+						"gallery gallery";
+	}	
+	.menu__item {
+		line-height: 1.2;
+	}
+}
+
+
+@media (any-pointer: fine) {
+	.cursor {
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: block;
+		pointer-events: none;
+		mix-blend-mode: color-burn;
+	}
+	.cursor__inner {
+		fill: var(--cursor-fill);
+		stroke: var(--cursor-stroke);
+		stroke-width: var(--cursor-stroke-width);
+		opacity: 0.7;
+	}
+	.no-js .cursor {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 30em) {
+.frame {
+	position: fixed;
+	left: 10;
+	top: 0;
+	height: 100vh;
+	display: flex;
+	z-index: 1000;
+	-webkit-writing-mode: horizontal-tb;
+	-ms-writing-mode:lr-tb;
+	writing-mode: horizontal-tb;
+	align-items:flex-start;
+	padding: .5rem 0.35rem 0em 0;
+}
+
+
+.menu{
+	margin-top: 20em;
+	grid-area: content;
+	font-size: smaller;}
+	.menu__item-title{
+	line-height: 1.2;
+	}
+}}
