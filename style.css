@@ -46,8 +46,9 @@ MY STYLE
   
   .ss6 {
 	font-family:'SuisseBPIntl-Antique';
-	font-weight: ;
+	padding-left: 40px;
 	font-size: 43pt;
+	padding-top: -20px;
   }
   
   .ss7 {
@@ -277,8 +278,8 @@ MY STYLE
 	position: relative;
 }
 
-.frame {
-	padding: 1rem 3vw;
+.frame3 {
+	padding-left: 5rem;
 	text-align: center;
 	position: relative;
 	z-index: 1000;
@@ -286,7 +287,7 @@ MY STYLE
 
 .frame2 {
 	padding: 0rem 5vw;
-	text-align: lef;
+	text-align: left;
 	position: relative;
 	z-index: 1000;
 }
@@ -361,3 +362,4 @@ MY STYLE
 		transition: .3s;
 	}
 }
+
