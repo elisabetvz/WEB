@@ -201,7 +201,8 @@ MY STYLE
 	  cursor:auto;
 	  box-sizing: border-box;
   }
-  
+
+
   :root {
 	  font-size: 18px;
   }
@@ -461,7 +462,7 @@ MY STYLE
 		  position: fixed;
 		  top: 5em;
 		  left: 0;
-		  display: block;
+		  display:;
 		  pointer-events:none;
 	  }
 	  .cursor__inner {
