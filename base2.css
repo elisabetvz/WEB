@@ -175,7 +175,7 @@ body {
 	-webkit-text-stroke: 2px var(--color-link);
 	text-stroke: 2px var(--color-link);
 	-webkit-text-fill-color: transparent;
-	text-fill-color: transparent;
+	border-inline-color: transparent;
 	color: transparent;
 	color: var(--color-link);
 	animation: letterSwitch 2s steps(10) infinite;
