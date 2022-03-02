@@ -317,7 +317,6 @@ MY STYLE
   .frame__title {
 	  font-size: 1rem;
 	  margin: 0 0 1rem;
-	  font-weight: normal;
   }
   
   .frame__links {
@@ -327,7 +326,6 @@ MY STYLE
 	  font-family: soleil, sans-serif;
 	  text-decoration: underline;
 	  font-size: 12pt;
-	  font-weight: lighter;
   }
   
   .frame__links a:not(:last-child),
