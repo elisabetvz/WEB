@@ -6365,8 +6365,8 @@ var MenuItem = /*#__PURE__*/function () {
     };
     this.DOM.title = this.DOM.el.querySelector('.menu__item-title');
     this.DOM.deco = this.DOM.el.querySelector('.menu__item-deco');
-    this.DOM.cta = this.DOM.el.querySelector('.menu__item-cta');
-    this.DOM.ctaInner = this.DOM.cta.querySelector('span');
+    this.DOM.title = this.DOM.el.querySelector('.menu__item-title');
+    this.DOM.titleInner = this.DOM.title.querySelector('span');
     this.DOM.galleryItems = _toConsumableArray(this.DOM.gallery.querySelectorAll('.bg-gallery__item'));
     this.contentPage = new _contentPage.default(this.DOM.content);
     this.isCurrent = false;
@@ -6377,7 +6377,7 @@ var MenuItem = /*#__PURE__*/function () {
     value: function highlight() {
       this.toggleCurrent();
 
-      _gsap.gsap.set([this.DOM.deco, this.DOM.cta], {
+      _gsap.gsap.set([this.DOM.deco, this.DOM.title], {
         opacity: 1
       });
 
@@ -6521,7 +6521,7 @@ var MenuController = /*#__PURE__*/function () {
             _this2.current = pos;
           }); // click on the menu item's explore 
 
-          item.DOM.cta.addEventListener('click', function (ev) {
+          item.DOM.title.addEventListener('click', function (ev) {
             if (_this2.isAnimating) return;
 
             _this2.showContent(item);
@@ -6581,7 +6581,7 @@ var MenuController = /*#__PURE__*/function () {
       }, 0.5).to(currentItem.DOM.deco, {
         scaleY: 0,
         opacity: 0
-      }, 0).to(currentItem.DOM.cta, {
+      }, 0).to(currentItem.DOM.title, {
         y: '100%',
         opacity: 0
       }, 0).to(currentItem.DOM.galleryItems, {
@@ -6594,7 +6594,7 @@ var MenuController = /*#__PURE__*/function () {
         },
         scaleY: 1,
         opacity: 1
-      }, 'upcomingImages').to(upcomingItem.DOM.cta, {
+      }, 'upcomingImages').to(upcomingItem.DOM.title, {
         startAt: {
           y: dir * 100 + '%'
         },
@@ -6632,7 +6632,7 @@ var MenuController = /*#__PURE__*/function () {
         }
       }).to(menuItem.DOM.deco, {
         scaleY: 0
-      }).to(menuItem.DOM.ctaInner, {
+      }).to(menuItem.DOM.titleInner, {
         y: '100%'
       }, 0).to(menuItem.DOM.galleryItems, {
         y: -winsize.height * 1.2,
@@ -6750,7 +6750,7 @@ var MenuController = /*#__PURE__*/function () {
           stagger: -0.05,
           rotation: 0,
           opacity: 1
-        }, 'showMenuItems').to(menuItem.DOM.ctaInner, {
+        }, 'showMenuItems').to(menuItem.DOM.titleInner, {
           y: '0%'
         }, 'showMenuItems').to(menuItem.DOM.deco, {
           scaleY: 1

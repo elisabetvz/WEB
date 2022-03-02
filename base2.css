@@ -67,6 +67,13 @@
 	font-size: 10px;
 	font-weight: lighter;
   }
+
+  .ss12 {
+	font-family:'ITC Garamond';
+	font-size: 50pt;
+	font-style: italic;
+	line-height: 40pt;
+  }
  
  /*
 	------------------------------------------------------------------
@@ -105,6 +112,14 @@
 		font-style: normal;
 		font-display: auto;
 	  }
+
+	  @font-face {
+		font-family: 'ITC Garamond';
+		src: url('fonts/ITCGaramond.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
 	
 
 *,
@@ -119,6 +134,9 @@
 }
 
 body {
+	width: 100%;
+	overflow: visible;
+	overflow-y: scroll;
 	margin: 0;
 	--color-text: #000000;
 	--color-bg: #ffffff;
@@ -128,58 +146,15 @@ body {
 	--color-menu-hover: #00a6d0;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: 'SuisseBPIntl-Antique';
+	font-family: 'Suisse-Intl-Light';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	--title-size-fallback: 7vw;
 	--title-size: clamp(4rem, 7vw, 10rem);
 	--cursor-stroke:var(--color-link-hover);
-    --cursor-fill: color-burn;
     --cursor-stroke-width: 1px;
 }
 
-.hidden {
-	position: absolute;
-	overflow: hidden;
-	width: 0;
-	height: 0;
-	pointer-events: none;
-}
-
-/* Page Loader */
-.js .loading::before,
-.js .loading::after {
-	content: '';
-	position: fixed;
-	z-index: 1000;
-}
-
-.js .loading::before {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: var(--color-bg);
-}
-
-.js .loading::after {
-	content: 'LOADING123';
-	font-size: 10vw;
-	top: 50%;
-	left: 50%;
-	width: 1ch;
-	overflow: hidden;
-	font-family: mono45-headline, monospace;
-	font-weight: 700;
-	transform: translate3d(-50%,-50%,0);
-	-webkit-text-stroke: 2px var(--color-link);
-	text-stroke: 2px var(--color-link);
-	-webkit-text-fill-color: transparent;
-	border-inline-color: transparent;
-	color: transparent;
-	color: var(--color-link);
-	animation: letterSwitch 2s steps(10) infinite;
-}
 
 @keyframes letterSwitch {
 	to {
@@ -264,7 +239,7 @@ main {
 }
 
 .bg-gallery__item {
-	opacity: 0;
+	opacity: 100;
 	position: relative;
 	max-width: 230px;
 	will-change: transform;
@@ -380,7 +355,6 @@ main {
 	font-size: var(--title-size-fallback);
 	font-size: var(--title-size);
 	font-weight: 700;
-	font-style: italic;
 	pointer-events: auto;
 	color: var(--color-menu);
 }
@@ -453,7 +427,7 @@ main {
 	top: 0;
 	height: 0;
 	overflow: hidden;
-	opacity: 0;
+	opacity: 100;
 	pointer-events: none;
 }
 
