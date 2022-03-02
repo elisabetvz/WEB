@@ -220,7 +220,7 @@ MY STYLE
 	  margin: 0;
 	  --color-text: #d00000;
 	  --color-bg: #ffffff;
-	  --color-link: #00a6d0;
+	  --color-link: #a2a2a2;
 	  --color-link-hover: #d00000;
 	  --color-content-title-sub: rgb(63, 63, 63);
 	  color: var(--color-text);
