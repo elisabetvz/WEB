@@ -297,51 +297,15 @@ MY STYLE
 	  font-size: 0.85rem;
 	  position: relative;
   }
-  
-  .no-select {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
+
   
   .frame {
 	  padding: 3rem 5vw;
 	  text-align: center;
-	  position: relative;
 	  z-index: 1000;
   }
-  
-  .frame__title {
-	  font-size: 1rem;
-	  margin: 0 0 1rem;
-  }
-  
-  .frame__links {
-	  display: inline;
-	  text-transform: uppercase;
-	  padding: 2rem 1rem;
-	  font-family: soleil, sans-serif;
-	  text-decoration: underline;
-	  font-size: 12pt;
-  }
-  
-  .frame__links a:not(:last-child),
-  .frame__demos a:not(:last-child) {
-	  margin-right: 1rem;
-  }
-  
-  .frame__demos {
-	  margin: 1rem 0;
-  }
-  
-  .frame__demo--current,
-  .frame__demo--current:hover {
-	  color: var(--color-text);
-	  text-decoration: none;
-  }
-  
+
+
   .content {
 	  display: flex;
 	  flex-direction: column;
@@ -353,87 +317,6 @@ MY STYLE
 	  max-height: 300px;
 	  color: #000000;
   }
-  
-  .grid {
-	  pointer-events: none;
-	  position: absolute;
-	  width: 110%;
-	  height: 110%;
-	  top: -5%;
-	  left: -5%;
-	  display: grid;
-	  grid-template-columns: repeat(50,2%);
-	  grid-template-rows: repeat(50,2%);
-  }
-  
-  .grid__item {
-	  position: relative;
-  }
-  
-  .grid--img .grid__item {
-	  overflow: hidden;
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-	  will-change: transform;
-  }
-  
-  .grid__item-img {
-	  position: relative;
-	  width: 100%;
-	  background-size: cover;
-	  background-position: 50% 50%;
-  }
-  
-  .grid--img .grid__item-img {
-	  flex: none;
-	  width: calc(100% + 100px);
-	  height: calc(100% + 100px);
-	  will-change: transform;
-  }
-  
-  /* Shorthand grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
-  
-  .pos-1 {
-	  grid-area: 30 / 18 / 35 / 27;
-  }
-  
-  .pos-2 {
-	  grid-area: 1 / 35 / 7 / 47;
-  }
-  
-  .pos-3 {
-	  grid-area: 1 / 36 / 0 / 42;
-  }
-  
-  .pos-4 {
-	  grid-area: 3 / 5 / 15 / 18;
-  }
-  
-  .pos-5 {
-	  grid-area: 10 / 25 / 32 / 30;
-  }
-  
-  .pos-6 {
-	  grid-area: 33 / 30 / 40 / 45;
-  }
-  
-  .pos-7 {
-	  grid-area: 40 / 5 / 45 / 15;
-  }
-  
-  .pos-8 {
-	  grid-area: 38 / 14 / 46 / 22;
-  }
-  
-  .pos-9 {
-	  grid-area: 40 / 26 / 51 / 32;
-  }
-  
-  .pos-10 {
-	   grid-area: 37 / 39 / 48 / 47;
-  }
-  
   .content__title {
 	  font-family: 'SuisseBPIntl-Antique';
 	  font-weight: 400;
@@ -460,19 +343,5 @@ MY STYLE
 	line-height: 0.5;
 	font-family: Helvetica, sans-serif;
 }}
-
-	  .cursor {
-		  position: fixed;
-		  top: 5em;
-		  left: 0;
-		  display:;
-		  pointer-events:none;
-	  }
-	  .cursor__inner {
-		  fill: #00a6d0;
-		  stroke: #00a6d0;
-		  stroke-width: var(--cursor-stroke-width);
-	  }
-  }
 
 

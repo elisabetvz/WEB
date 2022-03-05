@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Portfolio by EVZ</title>
-        <link rel="stylesheet" href="https://use.typekit.net/eqx3jwb.css">
+        <link rel="stylesheet" type="text/css" href="dropdown.css">
         <link rel="stylesheet" href="base.css">
         <script>document.documentElement.className = "js";
 
@@ -18,13 +18,21 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
     </head>
 
 
-    <div class="frame">
-        <div class="frame__links">
-          <a href="index.html">INDEX</a>
-          <a href="about.html">ABOUT</a>
-          <a href="design.html">ARCHIVES</a>
+
+    <div class="topnav" id="myTopnav">
+        <div class="dropdown">
+          <button class="dropbtn" class="active">elisabet vázquez
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="index.html">INDEX</a>
+            <a href="about.html">INFO</a>
+            <a href="design.html">WORK</a>
+          </div>
         </div>
-    </div>
+        <a href="" class="icon" onclick="myFunction()">&#9776;</a>
+      </div> 
+    
       
     <body class="demo-1">
         <main>
@@ -63,8 +71,6 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
             </footer>   
 
 </main>     
-        <script src="js/index.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/script2.js"></script>
+        <script src="js.js"></script>
     </body>
 </html>
