@@ -1,10 +1,18 @@
+.body2{
+line-height: 13pt;
+font-family:'Suisse-Intl-Light';
+text-align: center;
+}
+
 .ss {
 	font-family:'Helvetica';
 	padding-top: 1rem;
   }
   
-  .ss1 {
-	font-family:'Suisse-Intl-Light';
+.ss1 {
+	font-family:'Helvetica';
+	font-weight: lighter;
+	line-height: 16pt;
   }
   
   .ss2 {
@@ -43,9 +51,10 @@
   .ss8 {
 	font-family:monospace;
 	padding-top: 1rem;
-	font-size: 20pt;
+	font-size: 23pt;
   }
-  
+
+
   .ss9 {
 	font-family:'SuisseBPIntl-Antique';
 	font-size: 26.4px;
@@ -64,6 +73,7 @@
 	font-family:'Steinbeck';
 	font-size: 10px;
 	font-weight: lighter;
+	line-height: 12pt;
   }
 
   .ss12 {
@@ -194,12 +204,19 @@ main {
 
 
 .block {
-	padding: 1rem 1rem;
-	padding-top: 2em;
+	padding: 1rem 1.5rem;
+	padding-top: 1em;
+	text-align: center;
 }
 
 .block2 {
 	padding: 1rem 2rem;
+}
+
+.block3 {
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
 
 }
 
