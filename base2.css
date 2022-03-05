@@ -1,3 +1,4 @@
+
 .body2{
 line-height: 13pt;
 font-family:'Suisse-Intl-Light';
@@ -211,6 +212,7 @@ main {
 
 .block2 {
 	padding: 1rem 2rem;
+	padding-top: -10em;
 }
 
 .block3 {
