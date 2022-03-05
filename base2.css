@@ -43,7 +43,7 @@
   .ss8 {
 	font-family:monospace;
 	padding-top: 1rem;
-	font-size:10pt;
+	font-size: 20pt;
   }
   
   .ss9 {
@@ -194,7 +194,13 @@ main {
 
 
 .block {
-	padding: 2rem 1rem;
+	padding: 1rem 1rem;
+	padding-top: 2em;
+}
+
+.block2 {
+	padding: 1rem 2rem;
+
 }
 
 .frame a {
