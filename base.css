@@ -7,7 +7,6 @@ MY STYLE
 
 * {
 	font-family:'SuisseBPIntl-Antique';
-	color: black;
 	cursor: auto;
 	text-decoration: none;
   }
@@ -470,8 +469,8 @@ MY STYLE
 		  pointer-events:none;
 	  }
 	  .cursor__inner {
-		  fill: var(--cursor-fill);
-		  stroke: var(--cursor-stroke);
+		  fill: #00a6d0;
+		  stroke: #00a6d0;
 		  stroke-width: var(--cursor-stroke-width);
 	  }
   }
