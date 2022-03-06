@@ -6,7 +6,7 @@ MY STYLE
 */
 
 * {
-	font-family:'SuisseBPIntl-Antique';
+	font-family: Helvetica;
 	cursor: auto;
 	text-decoration: none;
   }
@@ -123,27 +123,6 @@ MY STYLE
 	}
   
   
-  
-  .body {
-	display: block;
-	margin-bottom: 1rem;
-	font-family: 'Helvetica';
-	color: #000000;
-	font-size: 20px;
-	letter-spacing: -0.36px;
-	line-height: 18pt;
-  }
-  
-  .body2 {
-	display: block;
-	font-family: 'Helvetica';
-	color: #000000;
-	font-size: 20px;
-	line-height: 24px;
-	letter-spacing: -0.36px;
-	line-height: 20pt;
-  }
-  
   /*
   ------------------------------------------------------------------
   NEW GRID
@@ -169,22 +148,6 @@ MY STYLE
   .div-block3 {
 	padding-top: 1rem;
 	cursor: auto;
-  }
-  
-  /*-- vertical line --*/
-  .vl {
-	border-left: 6px solid rgb(255, 0, 0);
-	height:fit-content;
-	position:static;
-	left: 50%;
-	margin-left:-3px;
-	top: 10pt;
-  }
-  
-  @media screen and (min-width: 600px){
-	.vl {
-	  width:1000;
-	}
   }
   
 
@@ -217,6 +180,8 @@ MY STYLE
   
   body {
 	  margin: 0;
+	  overflow: visible;
+	  overflow-y: scroll;
 	  --color-text: #d00000;
 	  --color-bg: #ffffff;
 	  --color-link: #a2a2a2;
@@ -227,15 +192,11 @@ MY STYLE
 	  --cursor-stroke: #ff0000;
 	  --cursor-fill: none;
 	  --cursor-stroke-width: 1px;
-	  font-family: 'SuisseBPIntl-Antique';
+	  font-family: Helvetica;
 	  -webkit-font-smoothing: antialiased;
 	  -moz-osx-font-smoothing: grayscale;
   }
   
-  #cdawrap {
-	  --cda-text-size: 14px;
-	  --cda-footer-fontsize: 12px;
-  }
   
   
   a {
@@ -251,53 +212,6 @@ MY STYLE
 	  outline: none;
   }
   
-  /* Page Loader */
-  .js .loading::before,
-  .js .loading::after {
-	  content: '';
-	  position: fixed;
-	  z-index: 1000;
-  }
-  
-  .js .loading::before {
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  height: 100%;
-	  background: var(--color-bg);
-  }
-  
-  .js .loading::after {
-	  top: 50%;
-	  left: 50%;
-	  width: 60px;
-	  height: 60px;
-	  margin: -30px 0 0 -30px;
-	  border-radius: 50%;
-	  opacity: 0.4;
-	  background: var(--color-link);
-	  animation: loaderAnim 0.7s linear infinite alternate forwards;
-  
-  }
-  
-  @keyframes loaderAnim {
-	  to {
-		  opacity: 1;
-		  transform: scale3d(0.5,0.5,1);
-	  }
-  }
-  
-  .message {
-	  position: relative;
-	  z-index: 100;
-	  text-align: center;
-	  background: transparent;
-	  color: var(--color-bg);
-	  padding: 1rem;
-	  font-size: 0.85rem;
-	  position: relative;
-  }
-
   
   .frame {
 	  padding: 3rem 5vw;
