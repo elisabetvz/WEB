@@ -157,13 +157,6 @@ MY STYLE
   ------------------------------------------------------------------
   */
   
-  *,
-  *::after,
-  *::before {
-	  cursor:auto;
-	  box-sizing: border-box;
-  }
-
 
   :root {
 	  font-size: 18px;
@@ -174,8 +167,6 @@ MY STYLE
   main {
 	  height: 100%;
 	  width: 100%;
-	  position: relative;
-	  overflow: hidden;
   }
   
   body {
