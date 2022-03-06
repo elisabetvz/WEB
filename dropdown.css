@@ -16,9 +16,9 @@
     display: block;
     color: #000000;
     text-align: center;
-    padding: 12px 16px;
+    padding:20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
   }
 
@@ -49,14 +49,14 @@
     font-size: 4vw;
     display: block;
     line-height: 0.5;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica,Helvetica Neue,sans-serif;
   }
   
   /* Style the dropdown content (hidden by default) */
   .dropdown-content  {
     display: none;
     position:fixed;
-    background-color:rgb(255, 255, 255);
+    background-color:#fbf9f4;
     min-width: 100%;
     width: 100%;
     height: max-content;
@@ -87,7 +87,7 @@
   /* Add a grey background to dropdown links on hover */
   .dropdown-content a:hover {
     background-color: transparent;
-    color: rgba(255, 255, 255, 1);
+    color: #00a6d0;
   }
   
   /* Show the dropdown menu when the user moves the mouse over the dropdown button */
