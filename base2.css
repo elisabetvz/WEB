@@ -377,13 +377,15 @@ main {
 
 /* Caption text */
 .text {
-  color: transparent;
+  cursor: pointer;
+  color: white;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  user-select: auto;
 }
 
 /* Number text (1/3 etc) */
