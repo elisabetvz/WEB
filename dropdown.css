@@ -8,7 +8,8 @@
     background-color: transparent(255, 255, 255, 0);
     overflow: hidden;
   }
-  
+
+
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -31,6 +32,10 @@
   .dropdown {
     float: left;
     overflow: hidden;
+  }
+
+  .dropbtn{
+    align-items: flex-end;
   }
   
   /* Style the dropdown button to fit inside the topnav */
