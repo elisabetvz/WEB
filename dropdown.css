@@ -140,7 +140,7 @@
     }
     .topnav.responsive a {
       float: none;
-      display:block;
+      display: block;
       text-align: center;
     }
     .topnav.responsive .dropdown {float: none;}
