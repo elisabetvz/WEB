@@ -195,17 +195,6 @@ a:focus {
 	outline: none;
 }
 
-main {
-	min-height: 100vh;
-	display: grid;
-	grid-template-areas: 'frame' 'content';
-	grid-template-rows: auto auto;
-	grid-template-columns: auto;
-}
-
-.js main {
-	height: 100vh;
-}
 
 .frame {
 	text-transform: uppercase;
@@ -238,12 +227,6 @@ main {
 }
 
 @media screen and (min-width: 53em) {
-	main {
-		grid-template-areas: 'content content';
-		grid-template-rows: 100vh;
-		grid-template-columns: 3rem 1fr;
-	}
-
 	.block {
 		padding: 2rem 10rem;
 	}
