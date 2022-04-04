@@ -14,7 +14,7 @@
   .topnav a {
     float: left;
     display: block;
-    color: rgb(51, 51, 51);
+    color: #fbf9f4;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -44,7 +44,7 @@
   .dropdown .dropbtn {
     border: none;
     outline: none;
-    color: rgb(0, 0, 0);
+    color: #fbf9f4;
     padding: 12px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -58,7 +58,7 @@
   .dropdown-content  {
     display: none;
     position:fixed;
-    background-color:#fbf9f4;
+    background-color: #101010;
     min-width: 100%;
     width: 100%;
     height: 100%;
@@ -69,7 +69,7 @@
   /* Style the links inside the dropdown */
   .dropdown-content a {
     float: none;
-    color: rgb(51, 51, 51);
+    color: #fbf9f4;
     padding: 30px 16px;
     margin-bottom: 35pt;
     margin-top: 20pt;
@@ -84,7 +84,7 @@
   /* Add a dark background on topnav links and the dropdown button on hover */
   .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: transparent;
-    color:  rgb(51, 51, 51);
+    color:  #fbf9f4;
   }
   
   /* Add a grey background to dropdown links on hover */
