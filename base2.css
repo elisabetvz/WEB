@@ -159,11 +159,11 @@ body {
 	overflow: visible;
 	overflow-y: scroll;
 	margin: 0;
-	--color-text: #000000;
-	--color-bg: #fbf9f4;
-	--color-link: #000000;
+	--color-text: #fbf9f4;
+	--color-bg: #101010;
+	--color-link: #fbf9f4;
 	--color-link-hover: #00a6d0;
-	--color-menu: #000000;
+	--color-menu: #fbf9f4;
 	--color-menu-hover: #00a6d0;
 	color: var(--color-text);
 	background-color: var(--color-bg);
