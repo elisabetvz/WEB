@@ -37,15 +37,15 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 body {
-	--color-text: #fff;
+	--color-text: #fbf9f4;
 	--color-bg: #101010;
-	--color-link: #fff;
-	--color-link-hover: #0b44fb;
-	font-family: "Niramit", Arial, sans-serif;
+	--color-link: #fbf9f4;
+	--color-link-hover: #00a6d0;
+	font-family: proxima nova;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
-	background-color: #fff;
+	background-color: ##fbf9f4;
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -216,7 +216,7 @@ main {
 }
 
 .menu__item-text {
-	font-family: "Anton", Arial, sans-serif;
+	font-family: Proxima Nova;
 	text-transform: uppercase;
 	-webkit-text-stroke: 2px #fff;
 	text-stroke: 2px #fff;
@@ -230,9 +230,9 @@ main {
 }
 
 .menu__item--current .menu__item-text {
-	-webkit-text-fill-color: #fff;
-	text-fill-color: #fff;
-	color: #fff;
+	-webkit-text-fill-color: ##fbf9f4;
+	text-fill-color: #fbf9f4;
+	color: #fbf9f4;
 	-webkit-text-stroke: 2px transparent;
 	text-stroke: 2px transparent;
 	pointer-events: ;
@@ -246,8 +246,8 @@ main {
 .menu__item-link {
 	font-family: "Anton", Arial, sans-serif;
 	text-transform: uppercase;
-	-webkit-text-stroke: 2px #fff;
-	text-stroke: 2px #fff;
+	-webkit-text-stroke: 2px #fbf9f4;
+	text-stroke: 2px #fbf9f4;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
 	color: transparent;
@@ -286,7 +286,7 @@ main {
 	border: 0;
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: ##fbf9f4;
 	opacity: 0;
 }
 
@@ -343,55 +343,6 @@ main {
 .grid--open .grid__item::after {
 	background: rgba(0,0,0,0);
 }
-
-/* Layout 1 */
-.grid--layout-1 .grid__item:first-child {grid-area: 3 / 1 / 8 / 4;}
-.grid--layout-1 .grid__item:nth-child(2) {grid-area: 1 / 2 / 3 / 4;}
-.grid--layout-1 .grid__item:nth-child(3) {grid-area: 5 / 4 / 8 / 8; }
-
-
-
-/* Layout 2 */
-.grid--layout-2 .grid__item:first-child { grid-area: 2 / 1 / 5 / 4; }
-.grid--layout-2 .grid__item:nth-child(2) { grid-area: 1 / 4 / 4 / 7; }
-.grid--layout-2 .grid__item:nth-child(3) {grid-area: 1 / 7 / 5 / 10;}
-.grid--layout-2 .grid__item:nth-child(4) {grid-area: 5 / 1 / 7 / 4;}
-.grid--layout-2 .grid__item:nth-child(5) {grid-area: 4 / 4 / 7 / 7;}
-.grid--layout-2 .grid__item:nth-child(6) {grid-area: 7 / 7 / 11 / 4;}
-.grid--layout-2 .grid__item:nth-child(7) {grid-area: 5 / 7 / 8 / 11;}
-.grid--layout-2 .grid__item:nth-child(8) {grid-area: 7 / 2 / 9 / 4;}
-
-/* Layout 3 */
-.grid--layout-3 .grid__item:first-child {grid-area: 1 / 2 / 3 / 5;}
-.grid--layout-3 .grid__item:nth-child(2) {grid-area: 3 / 1 / 6 / 5;}
-.grid--layout-3 .grid__item:nth-child(3) {grid-area: 1 / 5 / 5 / 8;}
-.grid--layout-3 .grid__item:nth-child(4) {grid-area: 2 / 8 / 6 / 11;}
-.grid--layout-3 .grid__item:nth-child(5) {grid-area: 5 / 5 / 8 / 8;}
-.grid--layout-3 .grid__item:nth-child(6) {grid-area: 6 / 8 / 8 / 11;}
-.grid--layout-3 .grid__item:nth-child(7) {grid-area: 6 / 2 / 8 / 5;}
-.grid--layout-3 .grid__item:nth-child(8) {grid-area: 11 / 4 / 8 / 7;}
-.grid--layout-3 .grid__item:nth-child(9) {grid-area: 8 / 9 / 11 / 7;}
-
-/* Layout 4 */
-.grid--layout-4 .grid__item:first-child {grid-area: 2 / 1 / 4 / 4;}
-.grid--layout-4 .grid__item:nth-child(2) {grid-area: 1 / 4 / 3 / 7;}
-.grid--layout-4 .grid__item:nth-child(3) {grid-area: 3 / 4 / 5 / 7;}
-.grid--layout-4 .grid__item:nth-child(4) {grid-area: 1 / 7 / 4 / 11;}
-.grid--layout-4 .grid__item:nth-child(5) {grid-area: 4 / 2 / 7 / 4;}
-.grid--layout-4 .grid__item:nth-child(6) {grid-area: 5 / 7 / 8 / 4;}
-.grid--layout-4 .grid__item:nth-child(7) {grid-area: 4 / 7 / 8 / 11;}
-.grid--layout-4 .grid__item:nth-child(8) {grid-area: 8 / 9 / 11 / 4;}
-
-/* Layout 5 */
-.grid--layout-5 .grid__item:first-child {grid-area: 2 / 1 / 5 / 4;}
-.grid--layout-5 .grid__item:nth-child(2) {grid-area: 1 / 4 / 5 / 7;}
-.grid--layout-5 .grid__item:nth-child(3) {grid-area: 5 / 2 / 7 / 5;}
-.grid--layout-5 .grid__item:nth-child(4) {grid-area: 1 / 7 / 4 / 11;}
-.grid--layout-5 .grid__item:nth-child(5) {grid-area: 5 / 7 / 7 / 5;}
-.grid--layout-5 .grid__item:nth-child(6) {grid-area: 7 / 5 / 10 / 1;}
-.grid--layout-5 .grid__item:nth-child(7) {grid-area: 4 / 7 / 7 / 9;}
-.grid--layout-5 .grid__item:nth-child(8) {grid-area: 4 / 9 / 9 / 11;}
-.grid--layout-5 .grid__item:nth-child(9) {grid-area: 7 / 5 / 11 / 9;}
 
 .content__item {
 	max-width: 600px;
