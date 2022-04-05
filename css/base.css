@@ -135,11 +135,13 @@ main {
 }
 
 .pageheader {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
 	margin: 1rem 0;
 }
 
 .menutop__item {
+	font-family: Arial, Helvetica, sans-serif;
 	pointer-events: auto;
 	font-weight: bold;
 	cursor: pointer;
