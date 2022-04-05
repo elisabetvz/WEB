@@ -109,9 +109,9 @@
       display: block;
     }
   .topnav{
-    background-color: #fbf9f4;
+    background-color: #101010;
     border-style: solid;
-    border-color: #000000;
+    border-color: #fbf9f4;
     border-width: 1px;
     border-top-width:0;
     border;1;
@@ -125,7 +125,7 @@
   }
 
   #myTopnav{
-    background-color: #fbf9f4;
+    background-color: #101010;
   }
   }
 
