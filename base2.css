@@ -5,6 +5,10 @@ text-align: left;
 padding: 1rem 1rem;
 }
 
+.p2{
+	font-size: 12pt;
+	line-height: 14pt;
+}
 .ss {
 	font-family:'Helvetica';
 	padding-top: 1rem;
@@ -87,6 +91,11 @@ padding: 1rem 1rem;
 	padding-left: .5em;
 	font-size: 30pt;
   }
+
+  .ssb{
+	font-weight: bolder;
+  }
+
  
  /*
 	------------------------------------------------------------------
