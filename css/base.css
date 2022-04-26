@@ -222,6 +222,7 @@ main {
 	text-transform: uppercase;
 	-webkit-text-stroke: 2px #fbf9f4;
 	text-stroke: 2px #fbf9f4;
+	--color-menu-hover: #00a6d0;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
 	color: transparent;
@@ -229,9 +230,9 @@ main {
 	padding: 0 1rem;
 	cursor: pointer;
 	display: inline-block;
-	pointer-events: ;
+	pointer-events:;
 	align-self: flex-end;
-	opacity: ;
+	opacity:;
 	width: 100%;
 	cursor: pointer;
 	text-align: center;
