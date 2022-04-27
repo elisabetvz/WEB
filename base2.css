@@ -1,3 +1,13 @@
+.content__item {
+	max-width: 600px;
+	margin: 0 auto;
+	font-size: 1.15rem;
+	padding: 1.5rem;
+}
+
+.block3{
+text-align: center;
+}
 
 .body2{
 line-height: 13pt;
@@ -64,8 +74,9 @@ padding: 1rem 1rem;
 
   .ss9 {
 	font-family:'SuisseBPIntl-Antique';
-	font-size: 26.4px;
+	font-size: 40px;
 	margin-left: 10pt;
+	line-height: 18pt;
   }
   
   .ss10 {

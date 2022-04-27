@@ -17,8 +17,7 @@ body {
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	--cursor-stroke: none;
-	--cursor-fill: #00a6d0;
-	--cursor-stroke-width: 1px;
+	--cursor-stroke-width: 0px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: halyard-display, sans-serif;
@@ -202,9 +201,9 @@ main {
 	}
 
 	.cursor__inner {
-		fill: var(--cursor-fill);
-		stroke: var(--cursor-stroke);
-		stroke-width: var(--cursor-stroke-width);
+		fill: transparent;
+		stroke: transparent;
+		stroke-width: 0px;
 		opacity: 0.7;
 	}
 
