@@ -58,7 +58,7 @@
   .dropdown-content  {
     display: none;
     position:fixed;
-    background-color: #101010;
+    background-color: #fbf9f4;
     min-width: 100%;
     width: 100%;
     height: 100%;
@@ -84,7 +84,7 @@
   /* Add a dark background on topnav links and the dropdown button on hover */
   .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: transparent;
-    color:  #101010;
+    color:  #fbf9f4;
   }
   
   /* Add a grey background to dropdown links on hover */
