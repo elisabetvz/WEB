@@ -155,7 +155,14 @@ padding: 1rem 1rem;
 		font-style: normal;
 		font-display: auto;
 	  }
-	
+
+	  @font-face {
+		src: url('fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff2') format("woff2"),
+			 url('fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff') format("woff");
+		font-family: 'Roslindale';
+		font-style: normal;
+		font-weight: 200;
+	  }
 
 *,
 *::after,
@@ -181,7 +188,7 @@ body {
 	--color-menu-hover: #00a6d0;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: Helvetica;
+	font-family: 'Roslindale';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	--title-size-fallback: 7vw;
