@@ -188,7 +188,7 @@ body {
 	--color-menu-hover: #00a6d0;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: 'Roslindale';
+	font-family: Helvetica;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	--title-size-fallback: 7vw;

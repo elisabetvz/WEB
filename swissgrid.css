@@ -1,0 +1,43 @@
+
+.poster {
+    display: grid;
+    grid-template-columns: repeat(33, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 100%;
+    height: 100vh;
+    background hsl(26, 11%, 87%);
+  }
+
+  .b-one {
+    grid-column: 1/4;
+    grid-row: 11/15;
+    background: #1e1e1f;
+    width: 100%;
+  }
+  .b-two {
+    grid-column: 4/12;
+    grid-row: 6/8;
+    background: transparent;
+  }
+  .b-three {
+    grid-column: 16/18;
+    grid-row: 8/11;
+    background: #1e1e1f;
+  }
+  .b-four {
+    grid-column: 11/30;
+    grid-row: 15/17;
+    background: #1e1e1f;
+  }
+  .b-five {
+    grid-column: 30/34;
+    grid-row: 1/11;
+    background: #1e1e1f;
+  }
+  .textblock {
+    grid-column: 6/28;
+    grid-row-end: 14;
+  }
+  .textblock__caption {
+    font-size: 12px;
+  }
