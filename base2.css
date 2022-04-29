@@ -5,7 +5,7 @@ text-align: center;
 }
 
 .body2{
-line-height: 13pt;
+line-height: 1pt;
 text-align: left;
 padding: 1rem 1rem;
 }
@@ -24,6 +24,12 @@ padding: 1rem 1rem;
 	font-weight: lighter;
 	line-height: 16pt;
 
+  }
+
+  .ss20 {
+	font-family:'Helvetica';
+	color: #101010;
+	line-height: 20pt;
   }
   
   .ss2 {
@@ -228,6 +234,8 @@ a:focus {
 
 .block {
 	padding: 1rem 1rem;
+	font-size: larger;
+	line-height: 40pt;
 }
 
 .block2 {
