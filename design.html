@@ -244,45 +244,7 @@ for (var attr in meta) {
           parentNode.appendChild(script);
           promoted = true;
         }
-        function iframeLoader(wasFallback) {
-          promoted = true;
-          var dom, bootstrap, iframe, iframeStyle;
-          var doc = document;
-          var win = window;
-          window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
-          bootstrap = function(parent, scriptId) {
-            var script = doc.createElement("script");
-            script.id = scriptId || "boomr-if-as";
-            script.src = window.BOOMR.url;
-            BOOMR_lstart = new Date().getTime();
-            parent = parent || doc.body;
-            parent.appendChild(script);
-          };
-          if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
-            window.BOOMR.snippetMethod = "s";
-            bootstrap(parentNode, "boomr-async");
-            return;
-          }
-          iframe = document.createElement("IFRAME");
-          iframe.src = "about:blank";
-          iframe.title = "";
-          iframe.role = "presentation";
-          iframe.loading = "eager";
-          iframeStyle = (iframe.frameElement || iframe).style;
-          iframeStyle.width = 0;
-          iframeStyle.height = 0;
-          iframeStyle.border = 0;
-          iframeStyle.display = "none";
-          parentNode.appendChild(iframe);
-          try {
-            win = iframe.contentWindow;
-            doc = win.document.open();
-          } catch (e) {
-            dom = document.domain;
-            iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
-            win = iframe.contentWindow;
-            doc = win.document.open();
-          }
+       
           if (dom) {
             doc._boomrl = function() {
               this.domain = dom;
