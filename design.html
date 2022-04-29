@@ -40,13 +40,6 @@
   
 
 
-
-
-
-<meta name="twitter:card" content="summary"> <!-- Mobile Specific Metas --> <meta name="HandheldFriendly" content="True"> <meta name="MobileOptimized" content="320"> <meta name="viewport" content="width=device-width,initial-scale=1"> <meta name="theme-color" content="#fbf9f4"> <link rel="shortcut icon" type="image/x-icon" href="//cdn.shopify.com/s/files/1/0560/6601/5425/files/MF_Logo_Black_32x32.png?v=1627059970"> <link rel="canonical" href="https://www.mutualfriends.ca/pages/our-work" /> <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="facebook-domain-verification" content="dz6gcjf3m2l2lrsyvltdziay00moxu">
-<meta name="facebook-domain-verification" content="p199pgrqzko0gvw0qovbkq3abubl9d">
-<meta name="google-site-verification" content="HTbvhHPk6IuCjF9cIgDFuoMigtYJ0CTlfkgc3-aOARw">
-<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/56066015425/digital_wallets/dialog">
 <meta name="shopify-checkout-api-token" content="3be9f5377d97ebf25ef9f6dbba08bf32">
 <meta id="in-context-paypal-metadata" data-shop-id="56066015425" data-venmo-supported="false" data-environment="production" data-locale="en_US" data-paypal-v4="true" data-currency="CAD">
 <script id="apple-pay-shop-capabilities" type="application/json">{"shopId":56066015425,"countryCode":"CA","currencyCode":"CAD","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/56066015425","merchantName":"Mutual Friends","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex","discover","jcb","chinaUnionPay"],"total":{"type":"pending","label":"Mutual Friends","amount":"1.00"},"shopifyPaymentsEnabled":true,"supportsSubscriptions":true}</script>
@@ -125,63 +118,7 @@ for (var attr in meta) {
     return false;
   }
 
-  var setCookieIfConversion = function(token) {
-    if (token) {
-      var twoMonthsFromNow = new Date(Date.now());
-      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
 
-      document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
-    }
-  }
-
-  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
-  if (trekkie.integrations) {
-    return;
-  }
-  trekkie.methods = [
-    'identify',
-    'page',
-    'ready',
-    'track',
-    'trackForm',
-    'trackLink'
-  ];
-  trekkie.factory = function(method) {
-    return function() {
-      var args = Array.prototype.slice.call(arguments);
-      args.unshift(method);
-      trekkie.push(args);
-      return trekkie;
-    };
-  };
-  for (var i = 0; i < trekkie.methods.length; i++) {
-    var key = trekkie.methods[i];
-    trekkie[key] = trekkie.factory(key);
-  }
-  trekkie.load = function(config) {
-    trekkie.config = config || {};
-    trekkie.config.initialDocumentCookie = document.cookie;
-    var first = document.getElementsByTagName('script')[0];
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.onerror = function(e) {
-      var scriptFallback = document.createElement('script');
-      scriptFallback.type = 'text/javascript';
-      scriptFallback.onerror = function(error) {
-              var Monorail = {
-      produce: function produce(monorailDomain, schemaId, payload) {
-        var currentMs = new Date().getTime();
-        var event = {
-          schema_id: schemaId,
-          payload: payload,
-          metadata: {
-            event_created_at_ms: currentMs,
-            event_sent_at_ms: currentMs
-          }
-        };
-        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
-      },
-      sendRequest: function sendRequest(endpointUrl, payload) {
         // Try the sendBeacon API
         if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
           var blobData = new window.Blob([payload], {
@@ -451,7 +388,7 @@ for (var attr in meta) {
       form .select {
         display: block !important;
       }</style></noscript> <body class="page-our-work"
-    data-money-format="${{amount}}" data-shop-url="https://www.mutualfriends.ca"> <div id="shopify-section-infinite-header" class="shopify-section"><div class="bc-new-header bc-sticky" id="bc-infinite-header"> <div class="bc-nav-wrapper"> 
+    data-money-format="${{amount}}" data-shop-url="https://www.elisabetvz.com"> <div id="shopify-section-infinite-header" class="shopify-section"><div class="bc-new-header bc-sticky" id="bc-infinite-header"> <div class="bc-nav-wrapper"> 
 		<div class="bc-container"> <div class="bc-flex bc-v-center"> <div class="bc-18 bc-m-12"> <span class="bc-hamburger-menu bc-d-hide"> <svg class="bc-icon-menu" xmlns="http://www.w3.org/2000/svg" width="32" height="16" viewBox="0 0 32 16" fill="none"> 
 			<rect width="32" height="2" fill="black"/> <rect y="7" width="32" height="2" fill="black"/> <rect y="14" width="32" height="2" fill="black"/></svg></span> <div class="bc-nav-menu"> <div class="bc-flex bc-c-center bc-m-column"> <p><a href="index.html" title="/">HOME</a></p><p><a href="about.html" title="What we do">ABOUT</a></p>
 				<p><a href="design.html" title="Our Work">WORK</a></p></div></div></div> <div class="bc-6 bc-m-12 bc-align-right"></div></div></div></div>
