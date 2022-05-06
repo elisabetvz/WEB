@@ -2,6 +2,8 @@
 
 .block3{
 text-align: center;
+line-height: 1.5;
+font-size: 10px;
 }
 
 .body2{
@@ -90,10 +92,9 @@ padding: 1rem 1rem;
   
 
   .ss11 {
-	font-family:'Steinbeck';
-	font-size: 10px;
-	font-weight: lighter;
-	line-height: 12pt;
+	font-family: Helvetica;
+	font-size: 10pt;
+	line-height: 6pt;
   }
 
   .ss12 {
@@ -235,7 +236,7 @@ a:focus {
 .block {
 	padding: 1rem 1rem;
 	font-size: larger;
-	line-height: 40pt;
+	line-height: 1.5;
 }
 
 .block2 {
