@@ -7,22 +7,10 @@
     <link rel="stylesheet" type="text/css" href="dropdown.css">
     <link rel="stylesheet" type="text/css" href="base2.css">
 
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TXJVZXT');</script>
-<!-- End Google Tag Manager -->
   </head>
   
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXJVZXT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 
 <header>
@@ -50,7 +38,6 @@
 
 
 <body>
-
 
 
 <main>
@@ -84,6 +71,32 @@ Digital Design / Print Design / Campaign Development</a>
 </div>
 </div>
 </div>
+
+
+
+<img id="image" src="RPBack.png" style="width: 100%" onclick="enlargeImg(this)">
+
+
+
+<script>
+function show() {
+
+    /* Access image by id and change
+    the display property to block*/
+    document.getElementById('image')
+            .style.display = "block";
+
+    document.getElementById('btnID')
+            .style.display = "none";
+}
+
+// Function to increase image size
+function enlargeImg(img) {
+                img.style.transform = "scale(1.5)";
+                img.style.transition =
+                  "transform 0.25s ease";
+            }
+</script>
 
 </main>
 
