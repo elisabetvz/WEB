@@ -62,10 +62,10 @@ padding: 1rem 1rem;
   
   .ss7 {
 	font-family:'Suisse-Intl-Light';
-	font-weight: lighter;
-	font-size: 26.4px;
-	margin-left: 10pt;
-	line-height: 18pt;
+	font-weight: light;
+	padding-top: 1rem;
+	font-size: 23pt;
+	line-height: 40pt;
   }
   
   .ss8 {
@@ -182,6 +182,10 @@ padding: 1rem 1rem;
 
 :root {
 	font-size: 13px;
+}
+
+b{ 
+	padding-left: 20em;
 }
 
 body {
