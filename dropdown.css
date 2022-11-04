@@ -58,7 +58,7 @@
   .dropdown-content  {
     display: none;
     position:fixed;
-    background-color: #fbf9f4;
+    background-color: #ffffff;
     min-width: 100%;
     width: 100%;
     height: 100%;
@@ -109,7 +109,7 @@
       display: block;
     }
   .topnav{
-    background-color: #fbf9f4;
+    background-color: #ffffff;
     border-style: solid;
     border-color: #101010;
     border-width: 1px;
@@ -125,7 +125,7 @@
   }
 
   #myTopnav{
-    background-color: #fbf9f4;
+    background-color: #ffffff;
   }
   }
 

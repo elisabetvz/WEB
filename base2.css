@@ -62,7 +62,7 @@ padding: 1rem 1rem;
   }
   
   .ss8 {
-	font-family: Helvetica;
+	font-family: 'PPNeueWorld-Regular';
 	font-weight: bold;
 	padding-top: 1rem;
 	font-size: 23pt;
@@ -143,6 +143,14 @@ padding: 1rem 1rem;
 	  }
 
 	  @font-face {
+		font-family: 'PPNeueWorld-Regular';
+		src: url('fonts/PPNeueWorld-Regular.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	  @font-face {
 		font-family: 'ITC Garamond';
 		src: url('fonts/ITCGaramond.woff2') format('woff2');
 		font-weight: 400;
@@ -196,7 +204,7 @@ body {
 	overflow-y: scroll;
 	margin: 0;
 	--color-text: #101010;
-	--color-bg: #fbf9f4;
+	--color-bg: #ffffff;
 	--color-link: #101010;
 	--color-link-hover: #00a6d0;
 	--color-menu: #101010;
