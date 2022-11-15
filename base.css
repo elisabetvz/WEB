@@ -534,7 +534,6 @@ body { font-family: sans-serif; }
 	margin-right: 10px;
 	/* vertically center */
 	top: 50%;
-	transform: translateY(-50%)
   }
   
   .carousel.is-fullscreen .carousel-image {
