@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -7,7 +8,6 @@
 		<link rel="icon" type="image/x-icon" href="designs/e.png">
     <link rel="stylesheet" type="text/css" href="base.css">
     <link rel="stylesheet" href="https://use.typekit.net/gdf6msi.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 	</head>
 
   </head>
@@ -33,38 +33,26 @@
 		<section class="intro">
 			<p>Elisabet is a multidisciplinary Art Director based in Los Angeles. Her work springs from a spirit of relentless passion, curiosity for the unseen, emerging at the intersection of fashion, popular culture and social change. She is driven by her passion to tell the stories that are yet to be told. </p>
 		</section>
-	<section class="content">
-			<div class="cover"></div>
-			<div class="row">
-				<div class="cell cell--text">
-					<h2 class="cell__title oh"><a class href="portfolio.html">MINA BAIE</span></h2>
-				</div>
 
-				</div>
-			</div>
-    
-    </a>
-			<div class="row">
-				<div class="cell cell--text">
-					<h2 class="cell__title oh"><a class href="portfolio.html">JUICE HOUSE</span></h2>
-				</div>
-			</div>
-            <div class="row">
-				<div class="cell cell--text">
-					<h2 class="cell__title oh"><span class="oh__inner">MOSAIC STUDIOS</span></h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="cell cell--text">
-					<h2 class="cell__title oh"><span class="oh__inner "></span></h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="cell cell--text">
-					<h2 class="cell__title oh"><span class="oh__inner"></span></h2>
-				</div>
-			</div>
-	</section>
+<!-- Flickity HTML init -->
+<div class="carousel" data-flickity='{ "watchCSS": true }'>
+  <div class="carousel-cell">
+	<img class="carousel-cell" src="CAROUSEL/1.jpg" data-flickity-lazyload="CAROUSEL/1.jpg" />
+</div>
+  <div class="carousel-cell">	
+	<img class="carousel-cell" src="2.jpg" data-flickity-lazyload="2.jpg" />
+</div>
+  <div class="carousel-cell">
+	<img class="carousel-cell" src="2.jpg" data-flickity-lazyload="2.jpg" />
+  </div>
+  <div class="carousel-cell">
+	<img class="carousel-cell" src="2.jpg" data-flickity-lazyload="2.jpg" />
+  </div>
+  <div class="carousel-cell">
+	<img class="carousel-cell" src="2.jpg" data-flickity-lazyload="2.jpg" />
+  </div>
+</div>
+
 
 		<footer class="page-footer">
 			<p class="page-footer__text">FOR MORE INFO, VISIT HER <a class href="portfolio.html">STUDIO. </p>
@@ -74,10 +62,11 @@
 			</p>
 		</footer>
 	</main>
-	<script type="module" src="js/index.js"></script>
-  <script src="js/previewItem.js"></script>
-  <script src="js/row.js"></script>
-  <script src="js/utils.js"></script>
+
+
+	<script src="flickity-docs.min.js"></script>
+
+
 </body>
 
 </html>
