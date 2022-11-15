@@ -461,7 +461,7 @@ body { font-family: sans-serif; }
 
 .carousel-cell {
   width: 66%;
-  height:fit-content;
+  height:auto;
   margin-right: 10px;
   margin-bottom: 10px;
   background: transparent;
