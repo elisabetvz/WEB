@@ -464,6 +464,7 @@ body { font-family: sans-serif; }
   height:auto;
   margin-right: 10px;
   margin-bottom: 10px;
+  margin-left: 0%;
   background: transparent;
   border-radius: 5px;
   counter-increment: carousel-cell;
@@ -534,6 +535,7 @@ body { font-family: sans-serif; }
 	margin-right: 10px;
 	/* vertically center */
 	top: 50%;
+	transform: translateY(-50%)
   }
   
   .carousel.is-fullscreen .carousel-image {
