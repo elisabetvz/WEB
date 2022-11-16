@@ -398,8 +398,8 @@ a:focus-visible {
 	max-width: 1200px;
 	width: 100%;
     grid-gap: var(--image-gap-large);
-	justify-content: center;
-	justify-items: center;
+	justify-content: left;
+	justify-items: left;
 	--img-size: var(--img-size-large);
 	grid-template-columns: repeat(4,var(--img-size));
 	grid-template-rows: repeat(2,var(--img-size));
@@ -433,7 +433,8 @@ a:focus-visible {
 	/* disable Flickity for large devices */
 	.carousel:after {
 	  content: 'flickity';
-	  
+	  margin-left: 0%;
+	  border-radius: 0px;
 	}
   }
 
@@ -455,13 +456,13 @@ body { font-family: sans-serif; }
 
 
 .carousel-cell {
-  width: 66%;
-  height:auto;
-  margin-right: 5px;
+  width: fit-content;
+  height: 450px;
+  margin-right: 10%;
   margin-bottom: 5px;
-  margin-left: 0%;
-  background: transparent;
-  border-radius: 5px;
+  margin-left: 10%;
+  background:#ffffff;
+  border-radius: 20px;
   counter-increment: carousel-cell;
 }
 
@@ -472,7 +473,7 @@ body { font-family: sans-serif; }
 
 /* dots are lines */
 .flickity-page-dots .dot {
-	height: 4px;
+	height: px;
 	width: 40px;
 	margin: 0;
 	border-radius: 20;
