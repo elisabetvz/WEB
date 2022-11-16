@@ -417,23 +417,7 @@ a:focus-visible {
 	display: none; /* hide :after */
   }
   
-  @media screen and ( max-width: 768px ) {
-	/* disable Flickity for large devices */
-	.carousel:after {
-	  content: 'flickity';
-	  margin-left: 0%;
-	  border-radius: 0px;
-	  height: auto;
-	  width: 100px;
-	  max-height: 100%;
-	  margin-right: 10%;
-	  margin-bottom: 5px;
-	  margin-left: 10%;
-	  background:#ffffff;
-	  border-radius: 20px;
-	  counter-increment: carousel-cell;
-	}
-  }
+
 
   /* external css: flickity.css */
 
@@ -485,6 +469,7 @@ body { font-family: sans-serif; }
 .flickity-page-dots {
 	bottom: 0px;
   }
+
   /* white circles */
   .flickity-page-dots .dot {
 	width: 12px;
@@ -507,12 +492,13 @@ body { font-family: sans-serif; }
 	width: 20px;
 	height: 20px;
 	opacity: 0;
-
   }
+
   /* icon color */
   .flickity-button-icon {
 	fill: white;
   }
+
   /* hide disabled button */
   .flickity-button:disabled {
 	display: none;
