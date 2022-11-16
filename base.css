@@ -429,10 +429,11 @@ a:focus-visible {
 	display: none; /* hide :after */
   }
   
-  @media screen and ( min-width: 768px ) {
+  @media screen and ( max-width: 768px ) {
 	/* disable Flickity for large devices */
 	.carousel:after {
-	  content: '';
+	  content: 'flickity';
+	  
 	}
   }
 
@@ -452,18 +453,12 @@ body { font-family: sans-serif; }
   display: none;
 }
 
-@media screen and ( s-width: 768px ) {
-  /* disable Flickity for large devices */
-  .carousel:after {
-    content: '';
-  }
-}
 
 .carousel-cell {
   width: 66%;
   height:auto;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
   margin-left: 0%;
   background: transparent;
   border-radius: 5px;
