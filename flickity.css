@@ -24,8 +24,8 @@ body { font-family: sans-serif; }
 
 
 .carousel-cell {
-  width: 50%;
-  height: fit-content;
+  width: auto;
+  height: 100px;
   margin-right: 10%;
   margin-bottom: 5px;
   margin-left: 10%;
