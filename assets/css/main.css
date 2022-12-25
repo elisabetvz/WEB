@@ -653,10 +653,12 @@ a {
 }
 
 .case-study .about-project p {
-	font-size: 1.125rem;
-	line-height: 1.7;
+	font-family: 'Suisse-Intl-Light';
+	font-size: 0.9rem;
+	line-height: 1.8;
 	margin-bottom: 21px;
 	width: 47%;
+	float: right;
 }
 
 .case-study .img-one,
