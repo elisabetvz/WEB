@@ -35,8 +35,11 @@ a,
 
 .open-nav i,
 .open-nav i:before,
-.open-nav i:after,
-.cta-primary {
+.open-nav i:after,{
+	background: #444;
+}
+
+.cta-primary{
 	background: #f7f7f5;
 }
 
