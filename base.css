@@ -4,13 +4,6 @@
 	box-sizing: border-box;
 }
 
-
-  
-  .carousel.is-fullscreen .carousel-image {
-	height: auto;
-	max-height: 100%;
-  }
-
   
 
 :root {
@@ -409,3 +402,5 @@ a:focus-visible {
 		--padding-row: 2rem;
 	}
 }
+
+
