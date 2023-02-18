@@ -1,3 +1,137 @@
+ /*
+	------------------------------------------------------------------
+	TYPEFACES
+	------------------------------------------------------------------
+	*/
+  
+	@font-face {
+		font-family: 'PerfectlyNinetiesRegular';
+		src: url('../../fonts/PerfectlyNineties-Regular.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	@font-face {
+		font-family: 'PerfectlyNinetiesItalic';
+		src: url('../../fonts/PerfectlyNineties-Italic.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	@font-face {
+		font-family: 'ItalianGaramond';
+		src: url('../../fonts/ItalianGaramondBT-Roman.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	@font-face {
+		font-family: 'PPEditorialUltraLight';
+		src: url('../../fonts/PPEditorialNew-Ultralight.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	@font-face {
+		font-family: 'PPEditorialItalic';
+		src: url('../../fonts/PPEditorialNew-Italic.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	 
+	 @font-face {
+		font-family: 'PPEditorialRegular';
+		src: url('../../fonts/PPEditorialNew-Regular.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }	
+
+	  @font-face {
+		font-family: 'PPEditorialUltraBold';
+		src: url('../../fonts/PPEditorialNew-Ultrabold.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }	
+
+	@font-face {
+		font-family: 'SuisseBPIntl-Antique';
+		src: url('../../fonts/SuisseBPIntl-Antique.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'SuisseBPIntl-AntiqueItalic';
+		src: url('../../fonts/SuisseBPIntl-AntiqueItalic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'Suisse-Intl-Light';
+		src: url('../../fonts/Suisseintllight.woff2') format('woff2');
+		font-weight: 100;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'Steinbeck';
+		src: url('../../fonts/Steinbeck.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	  @font-face {
+		font-family: 'PPNeueWorld-Regular';
+		src: url('../../fonts/PPNeueWorld-Regular.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	  @font-face {
+		font-family: 'ITC Garamond';
+		src: url('../../fonts/ITCGaramond.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	  @font-face {
+		font-family: 'Roslindale Regular';
+		src: url('../../fonts/RoslindaleText-Regular.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	  @font-face {
+		src: url('../../fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff2') format("woff2"),
+			 url('../../fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff') format("woff");
+		font-family: 'Roslindale';
+		font-style: normal;
+		font-weight: 200;
+	  }
+
+	  @font-face {
+		src: url('../../fonts/ABCDiatype-Regular.woff2') format("woff2");
+		font-family: 'ABCDiatype';
+		font-style: normal;
+		font-weight: 200;
+	  }
+
+
 /*-----------------------------------------------------
 Table of Contents
 
@@ -148,7 +282,7 @@ a {
 }
 
 .about h1 {
-	font-family: Fahkwang, sans-serif;
+	font-family: 'PPEditorialUltraLight';
 	font-size: 4rem;
 	font-weight: 400;
 	line-height: 1.1;
@@ -191,7 +325,7 @@ a {
 .services h2,
 .clients h2 {
 	float: left;
-	font-family: Fahkwang, sans-serif;
+	font-family: 'PPEditorialUltraLight';
 	font-size: 3rem;
 	font-weight: 400;
 	width: 50%;
@@ -474,7 +608,7 @@ a {
 }
 
 .case-study .content {
-	font-family: Fahkwang, sans-serif;
+	font-family: 'PPEditorialUltraLight';
 }
 
 .case-study .content .title {
@@ -549,7 +683,7 @@ a {
 }
 
 .next-project h3 {
-	font-family: Fahkwang, sans-serif;
+	font-family: 'PPEditorialUltraLight';
 	font-size: 4.5rem;
 	font-weight: 400;
 }
@@ -562,7 +696,7 @@ a {
 
 .contact h2,
 .contact-us h2 {
-	font-family: Fahkwang, sans-serif;
+	font-family:'PPEditorialUltraLight';
 	font-size: .875rem;
 	font-weight: 500;
 	letter-spacing: 2px;
@@ -570,7 +704,7 @@ a {
 }
 
 .contact h1 {
-	font-family: Fahkwang, sans-serif;
+	font-family: 'PPEditorialUltraLight';
 	font-size: 4rem;
 	font-weight: 400;
 	line-height: 1.1;
@@ -814,7 +948,7 @@ a {
 }
 
 .hero h1 {
-	font-family: Fahkwang, sans-serif;
+	font-family: 'PPEditorialUltraLight';
 	font-size: 5rem;
 	font-weight: 400;
 	line-height: 1;
@@ -829,7 +963,7 @@ a {
 /* =============== # Works =============== */
 
 .our-works h1 {
-	font-family: Fahkwang, sans-serif;
+	font-family: 'PPEditorialUltraLight';
 	font-size: 5.5rem;
 	font-weight: 300;
 	line-height: 1.1;
