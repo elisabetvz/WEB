@@ -433,7 +433,7 @@ Table of Contents
 
 /* Start @media(max-width:760px) */
 
-@media(max-width: 500px) {
+@media(max-width: 760px) {
 
 	.about {
 		margin-top: 48px;
@@ -543,7 +543,7 @@ Table of Contents
 
 /* Start @media(max-width:575px) */
 
-@media(max-width: 0px) {
+@media(max-width: 575px) {
 
 	.about {
 	    margin-top: 54px;
@@ -724,8 +724,6 @@ Table of Contents
 
 	.hero .cta-primary {
 	    margin: 35px auto 0 auto;
-		border-radius: 0.5in;
-		border-style:solid;
 	}
 
 	.next-project {
@@ -750,10 +748,9 @@ Table of Contents
 	}
 }
 
-
 /* Start @media(max-width:375px) */
 
-@media(max-width: 500px){
+@media(max-width: 375px){
 
 	.blog-post .header-wrapper {
 		padding: 0 16px;
@@ -778,17 +775,11 @@ Table of Contents
 	    font-size: 2.3rem;
 	    line-height: 1.2;
 	}
-
-	.cta-primary{
-		border-radius: 0.5in;
-		border-style:solid;
-	}
-
 }
 
 /* Start @media(max-width:320px) */
 
-@media(max-width: 500px) {
+@media(max-width: 320px) {
 
 	.case-study .content .year {
 		margin-left: 0;
