@@ -35,9 +35,12 @@ a,
 
 .open-nav i,
 .open-nav i:before,
-.open-nav i:after,
-.cta-primary {
-	background: #222;
+.open-nav i:after,{
+	background: #444;
+}
+
+.cta-primary{
+	background: #f7f7f5;
 }
 
 /*-----------------------------------------------------
@@ -143,7 +146,7 @@ body {
 
 .contact-form input[type=submit],
 .cta-primary:hover {
-	background: #ff4b23;
+	background: #f7f7f5;
 }
 
 /*-----------------------------------------------------
@@ -151,14 +154,14 @@ body {
 ------------------------------------------------------*/
 
 .blog-post .comment .reply:hover {
-	color: #0c3fbf;
+	color: #319ca1;
 }
 /*-----------------------------------------------------
 # background #0c3fbf - Accent Color
 ------------------------------------------------------*/
 
 .contact-form input[type=submit]:hover {
-	background: #0c3fbf;
+	background: #319ca1;
 }
 
 /*-----------------------------------------------------
@@ -167,4 +170,17 @@ body {
 
 .blog-post header a:hover {
 	color: #fed0c5;
+}
+
+.cta-primary{
+	color: #222
+}
+
+.cta-primary:hover {
+	background: #319ca1;
+}
+
+
+.contact-form input[type=submit]{
+	color: #222
 }

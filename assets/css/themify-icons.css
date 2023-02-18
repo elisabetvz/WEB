@@ -9,8 +9,94 @@
 	font-style: normal;
 }
 
+/*
+	------------------------------------------------------------------
+	TYPEFACES
+	------------------------------------------------------------------
+	*/
+  
+	@font-face {
+		font-family: 'SuisseBPIntl-Antique';
+		src: url('fonts/SuisseBPIntl-Antique.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'SuisseBPIntl-AntiqueItalic';
+		src: url('fonts/SuisseBPIntl-AntiqueItalic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'Suisse-Intl-Light';
+		src: url('fonts/Suisseintllight.woff2') format('woff2');
+		font-weight: 100;
+		font-style: normal;
+		font-display: auto;
+	  }
+	
+	  @font-face {
+		font-family: 'Steinbeck';
+		src: url('fonts/Steinbeck.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	  @font-face {
+		font-family: 'PPNeueWorld-Regular';
+		src: url('fonts/PPNeueWorld-Regular.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	  @font-face {
+		font-family: 'ITC Garamond';
+		src: url('fonts/ITCGaramond.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	  @font-face {
+		font-family: 'Roslindale Regular';
+		src: url('fonts/RoslindaleText-Regular.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
+	  @font-face {
+		src: url('fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff2') format("woff2"),
+			 url('fonts/Roslindale-DisplayCondensedExtraLight-Testing.woff') format("woff");
+		font-family: 'Roslindale';
+		font-style: normal;
+		font-weight: 200;
+	  }
+
+	  @font-face {
+		src: url('fonts/ABCDiatype-Regular.woff2') format("woff2"),
+			 url('fonts/ABCDiatype-Regular-Trial.woff') format("woff");
+		font-family: 'ABCDiatype';
+		font-style: normal;
+		font-weight: 200;
+	  }
+
+	  @font-face {
+		font-family: 'PP Editorial Italic';
+		src: url('fonts/PPEditorialNew-Italic.woff') format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: auto;
+	  }
+
 [class^="ti-"], [class*=" ti-"] {
-	font-family: 'themify';
+	font-family: 'ABCDiatype';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
